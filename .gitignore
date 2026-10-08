@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and generated data
+.env
+.local/
+.env.*
+!.env.example
+db.sqlite3
+db.sqlite3-*
+staticfiles/
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Uploaded files: keep the directory skeleton only
+media/**
+!media/**/
+!media/**/.gitkeep
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

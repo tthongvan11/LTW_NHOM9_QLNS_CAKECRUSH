@@ -1,0 +1,25 @@
+{% extends "employees/base.html" %}
+{% block employees_content %}
+<a class="cc-back" href="{% url 'employees:employee_list' %}"><span aria-hidden="true">‹</span>Quay lại</a>
+<div class="cc-page-header"><div><h1 id="employee-form-title">Thêm nhân viên</h1><p id="employee-form-description">Nhập thông tin hồ sơ nhân viên</p></div></div>
+{# Tên các ô khớp EmployeeForm; required/pattern hỗ trợ nhập đúng nhưng máy chủ vẫn kiểm tra lại. #}<form class="cc-panel cc-form-panel" id="employee-form">
+    <h2>Thông tin cá nhân</h2>
+    <div class="cc-form-grid">
+        <label class="cc-field">Họ và tên <span>*</span><input name="name" placeholder="Nhập họ và tên" autocomplete="name" required maxlength="100"></label>
+        <label class="cc-field">Ngày sinh<input name="birth_date" type="date" autocomplete="bday"></label>
+        <label class="cc-field">Giới tính <span>*</span><select name="gender" required><option value="">Chọn giới tính</option><option>Nữ</option><option>Nam</option></select></label>
+        <label class="cc-field">CCCD <span>*</span><input name="identity" placeholder="Nhập số CCCD" inputmode="numeric" pattern="[0-9]{12}" required maxlength="12" title="Nhập 12 chữ số"></label>
+        <label class="cc-field">Số điện thoại <span>*</span><input name="phone" type="tel" placeholder="Nhập số điện thoại" autocomplete="tel" pattern="0[0-9]{9}" required maxlength="10" title="Nhập 10 chữ số, bắt đầu bằng 0"></label>
+        <label class="cc-field">Email <span>*</span><input name="email" type="email" placeholder="Nhập email" autocomplete="email" required maxlength="254"></label>
+        <label class="cc-field cc-full-width">Địa chỉ<input name="address" placeholder="Nhập địa chỉ" autocomplete="street-address" maxlength="255"></label>
+    </div>
+    <h2 class="cc-section-gap">Thông tin công việc</h2>
+    <div class="cc-form-grid">
+        <label class="cc-field">Phòng ban <span>*</span><select name="department" required><option value="">Chọn phòng ban</option></select></label>
+        <label class="cc-field">Chức vụ <span>*</span><input name="job" placeholder="Nhập chức vụ" list="job-options" required maxlength="100"><datalist id="job-options"></datalist></label>
+        <label class="cc-field">Ngày vào làm <span>*</span><input name="start_date" type="date" required></label>
+    </div>
+    <div class="cc-form-error" role="alert" hidden></div>
+    <div class="cc-form-actions"><a class="cc-button cc-button-secondary" href="{% url 'employees:employee_list' %}">Hủy</a><button class="cc-button cc-button-primary" type="submit" id="employee-submit">Lưu hồ sơ</button></div>
+</form>
+{% endblock %}

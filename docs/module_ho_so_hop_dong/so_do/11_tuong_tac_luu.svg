@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1440" viewBox="0 0 1700 1440"><rect width="100%" height="100%" fill="white"/>
+<text x="850" y="67" text-anchor="middle" font-family="Times New Roman" font-size="43" fill="#152b3c">Thứ tự gọi khi lưu một biểu mẫu</text>
+<rect x="30" y="125" width="300" height="95" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="180.0" y="184.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">Trình duyệt</text>
+<path d="M180,220 L180,1360" stroke="#bdcbd4" stroke-width="3" stroke-dasharray="10 8"/>
+<rect x="360" y="125" width="300" height="95" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="510.0" y="184.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">CSRF / quyền</text>
+<path d="M510,220 L510,1360" stroke="#bdcbd4" stroke-width="3" stroke-dasharray="10 8"/>
+<rect x="700" y="125" width="300" height="95" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="850.0" y="184.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">API / Forms</text>
+<path d="M850,220 L850,1360" stroke="#bdcbd4" stroke-width="3" stroke-dasharray="10 8"/>
+<rect x="1040" y="125" width="300" height="95" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="1190.0" y="184.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">models.py</text>
+<path d="M1190,220 L1190,1360" stroke="#bdcbd4" stroke-width="3" stroke-dasharray="10 8"/>
+<rect x="1370" y="125" width="300" height="95" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="1520.0" y="184.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">SQLite</text>
+<path d="M1520,220 L1520,1360" stroke="#bdcbd4" stroke-width="3" stroke-dasharray="10 8"/>
+<path d="M180,295 L510,295" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="510,295 491.5787801199423,302.788366846173 491.5787801199423,287.211633153827" fill="#30546b"/>
+<text x="345.0" y="283" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">POST JSON + mã CSRF</text>
+<path d="M510,380 L850,380" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="850,380 831.5787801199423,387.788366846173 831.5787801199423,372.211633153827" fill="#30546b"/>
+<text x="680.0" y="368" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Yêu cầu đã hợp lệ về quyền</text>
+<path d="M850,465 L1190,465" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="1190,465 1171.5787801199424,472.788366846173 1171.5787801199424,457.211633153827" fill="#30546b"/>
+<text x="1020.0" y="453" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">form.is_valid → model.clean</text>
+<path d="M1190,550 L1520,550" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="1520,550 1501.5787801199424,557.7883668461731 1501.5787801199424,542.2116331538269" fill="#30546b"/>
+<text x="1355.0" y="538" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Đọc dữ liệu trùng / khoảng ngày</text>
+<path d="M1520,635 L1190,635" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="1190,635 1208.4212198800576,627.2116331538269 1208.4212198800576,642.7883668461731" fill="#30546b"/>
+<text x="1355.0" y="623" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Kết quả kiểm tra</text>
+<path d="M1190,720 L850,720" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="850,720 868.4212198800577,712.2116331538269 868.4212198800577,727.7883668461731" fill="#30546b"/>
+<text x="1020.0" y="708" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Hợp lệ</text>
+<path d="M850,805 L1190,805" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="1190,805 1171.5787801199424,812.7883668461731 1171.5787801199424,797.2116331538269" fill="#30546b"/>
+<text x="1020.0" y="793" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">form.save → model.save</text>
+<path d="M1190,890 L1520,890" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="1520,890 1501.5787801199424,897.7883668461731 1501.5787801199424,882.2116331538269" fill="#30546b"/>
+<text x="1355.0" y="878" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Ghi bản ghi trong giao dịch</text>
+<path d="M1520,975 L1190,975" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="1190,975 1208.4212198800576,967.2116331538269 1208.4212198800576,982.7883668461731" fill="#30546b"/>
+<text x="1355.0" y="963" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Bản ghi đã lưu</text>
+<path d="M1190,1060 L850,1060" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="850,1060 868.4212198800577,1052.211633153827 868.4212198800577,1067.788366846173" fill="#30546b"/>
+<text x="1020.0" y="1048" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Đối tượng có mã NV / HD</text>
+<path d="M850,1145 L180,1145" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="180,1145 198.4212198800577,1137.211633153827 198.42121988005772,1152.788366846173" fill="#30546b"/>
+<text x="515.0" y="1133" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">JSON id (thông báo chờ GET)</text>
+<path d="M180,1230 L850,1230" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="850,1230 831.5787801199423,1237.788366846173 831.5787801199423,1222.211633153827" fill="#30546b"/>
+<text x="515.0" y="1218" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">GET danh sách mới qua views</text>
+<text x="850" y="1412" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Các trường hợp lỗi trả về sớm; form.save chỉ chạy sau khi kiểm tra hợp lệ.</text>
+</svg>

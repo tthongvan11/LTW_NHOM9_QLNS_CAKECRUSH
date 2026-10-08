@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Cake Crush | Quản lý hồ sơ và hợp đồng{% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'fonts/inter/inter.css' %}">
+<link rel="stylesheet" href="{% static 'css/employees.css' %}">
+{% endblock %}
+{# Dữ liệu data-page, mã bản ghi và địa chỉ được JavaScript dùng để chọn đúng cách dựng trang. #}{% block body_attributes %}class="cc-app" data-page="{{ page }}" data-record-id="{{ record_id|default:'' }}" data-role="{{ user_role }}" data-root="{% url 'employees:employee_list' %}" data-icon-root="{% static 'icons/employees/' %}" data-login-url="{% url 'accounts:login' %}" data-password-url="{% url 'accounts:password_change' %}"{% endblock %}
+
+{% block body %}
+<a class="cc-skip" href="#main-content">Đi đến nội dung</a>
+<aside class="cc-sidebar" aria-label="Điều hướng chính">
+    <a class="cc-brand" href="{% url 'employees:employee_list' %}" data-manager-link>
+        <span class="cc-brand-mark">{% include "employees/includes/icon.html" with name="cake" %}</span>
+        <span><strong>Cake Crush</strong><small>HUMAN RESOURCES</small></span>
+    </a>
+    <p class="cc-nav-caption" id="nav-caption">KHÔNG GIAN QUẢN LÝ</p>
+    <nav class="cc-nav" id="side-nav">
+        <button class="cc-nav-item" type="button" disabled>{% include "employees/includes/icon.html" with name="home" %}<span>Dashboard</span></button>
+        <a class="cc-nav-item" data-nav="employees" href="{% url 'employees:employee_list' %}">{% include "employees/includes/icon.html" with name="users" %}<span>Hồ sơ nhân viên</span></a>
+        <a class="cc-nav-item" data-nav="contracts" href="{% url 'employees:contract_list' %}">{% include "employees/includes/icon.html" with name="file" %}<span>Hợp đồng</span></a>
+        <button class="cc-nav-item" type="button" disabled>{% include "employees/includes/icon.html" with name="clock" %}<span>Chấm công</span></button>
+        <button class="cc-nav-item" type="button" disabled>{% include "employees/includes/icon.html" with name="calendar" %}<span>Nghỉ phép</span></button>
+        <button class="cc-nav-item" type="button" disabled>{% include "employees/includes/icon.html" with name="book" %}<span>Đào tạo</span></button>
+        <button class="cc-nav-item" type="button" disabled>{% include "employees/includes/icon.html" with name="star" %}<span>Đánh giá</span></button>
+    </nav>
+    <div class="cc-sidebar-footer">
+        <div class="cc-user-card"><span class="cc-avatar" data-avatar>{{ bootstrap.account.initials }}</span><div><strong data-user-name>{{ bootstrap.account.name }}</strong><small data-user-job>{{ bootstrap.account.job }}</small></div></div>
+        <form method="post" action="{% url 'accounts:logout' %}">{% csrf_token %}<button class="cc-logout" type="submit">{% include "employees/includes/icon.html" with name="logout" %}<span>Đăng xuất</span></button></form>
+    </div>
+</aside>
+<header class="cc-topbar">
+    <button class="cc-mobile-menu cc-icon-button" type="button" id="mobile-menu" aria-label="Mở điều hướng" aria-expanded="false">☰</button>
+    <label class="cc-global-search">{% include "employees/includes/icon.html" with name="search" %}<input id="global-search" type="search" placeholder="Tìm kiếm trong Cake Crush HR" aria-label="Tìm kiếm trong Cake Crush HR"></label>
+    <span class="cc-role"><span class="cc-dot"></span><span id="role-label">{% if user_role == 'manager' %}Quản lý{% else %}Nhân viên{% endif %}</span></span>
+    <button class="cc-icon-button cc-notification" type="button" id="notifications" aria-label="Thông báo">{% include "employees/includes/icon.html" with name="bell" %}<i></i></button>
+    <div class="cc-account">
+        <button class="cc-account-button" id="account-toggle" type="button" aria-expanded="false" aria-controls="account-menu">
+            <span class="cc-avatar" data-avatar>{{ bootstrap.account.initials }}</span><span class="cc-account-text"><strong data-user-name>{{ bootstrap.account.name }}</strong><small data-user-job>{{ bootstrap.account.job }}</small></span><span class="cc-chevron"></span>
+        </button>
+        <div class="cc-account-menu" id="account-menu" hidden>
+            <div class="cc-user-card"><span class="cc-avatar" data-avatar>{{ bootstrap.account.initials }}</span><div><strong data-user-name>{{ bootstrap.account.name }}</strong><small data-user-job>{{ bootstrap.account.job }}</small></div></div>
+            <a href="{% url 'employees:my_profile' %}" data-own-link>{% include "employees/includes/icon.html" with name="user" %}Hồ sơ của tôi</a>
+            <a href="{% url 'employees:my_contracts' %}" data-own-link>{% include "employees/includes/icon.html" with name="file" %}Hợp đồng của tôi</a>
+            {% if request.user.is_staff %}<a href="{% url 'admin:index' %}">{% include "employees/includes/icon.html" with name="shield" %}Quản trị hệ thống</a>{% endif %}
+            <form method="post" action="{% url 'accounts:logout' %}">{% csrf_token %}<button class="cc-menu-logout" type="submit">{% include "employees/includes/icon.html" with name="logout" %}Đăng xuất</button></form>
+        </div>
+    </div>
+</header>
+<main class="cc-main" id="main-content" tabindex="-1">
+    {% block employees_content %}{% endblock %}
+</main>
+<div class="cc-toast" id="toast" role="status" aria-live="polite" hidden></div>
+{# Hộp vô hiệu hóa dùng chung cũng chứa mã CSRF cho các yêu cầu ghi bằng JavaScript. #}<dialog class="cc-dialog" id="deactivate-dialog" aria-labelledby="deactivate-title">
+    <form id="deactivate-form">
+        {% csrf_token %}
+        <h2 id="deactivate-title"><span class="cc-warning-icon" aria-hidden="true">⚠</span>Vô hiệu hóa hồ sơ nhân viên</h2>
+        <p id="deactivate-description"></p>
+        <label class="cc-field">Ngày nghỉ việc <span>*</span><input type="date" name="end_date" required></label>
+        <label class="cc-field">Lý do nghỉ việc <span>*</span><input type="text" name="reason" placeholder="Nhập lý do nghỉ việc" required maxlength="500"></label>
+        <div class="cc-form-error" role="alert" hidden></div>
+        <div class="cc-form-actions"><button class="cc-button cc-button-secondary" type="button" data-close-dialog>Hủy</button><button class="cc-button cc-button-danger" type="submit">Xác nhận vô hiệu hóa</button></div>
+    </form>
+</dialog>
+<noscript><p class="cc-noscript">Vui lòng bật JavaScript để xem giao diện hồ sơ và hợp đồng.</p></noscript>
+{% endblock %}
+
+{% block extra_js %}
+{# Django mã hóa dữ liệu thành JSON an toàn; JavaScript đọc đúng khối employees-bootstrap này. #}{{ bootstrap|json_script:"employees-bootstrap" }}
+<script src="{% static 'js/employees.js' %}" defer></script>
+{% endblock %}

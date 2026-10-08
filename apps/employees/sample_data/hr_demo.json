@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "reference_date": "2026-10-08",
+  "description": "Dữ liệu giả lập để phát triển và demo Cake Crush. Không phải hồ sơ nhân sự thật.",
+  "staff_employee_email": "demo04@cakecrush.example",
+  "employees": [
+    {"name": "Nguyễn Minh Anh", "department": "CUAHANG", "job": "Quản lý cửa hàng", "gender": "Nữ", "birth_date": "1994-03-12", "phone": "0900000101", "identity": "000000000101", "email": "demo01@cakecrush.example", "address": "Địa chỉ mẫu 01, Đà Nẵng", "start_date": "2025-11-01"},
+    {"name": "Trần Quốc Bảo", "department": "BEP", "job": "Thợ bánh", "gender": "Nam", "birth_date": "1996-07-24", "phone": "0900000102", "identity": "000000000102", "email": "demo02@cakecrush.example", "address": "Địa chỉ mẫu 02, Đà Nẵng", "start_date": "2025-07-01"},
+    {"name": "Lê Hoàng Phúc", "department": "BANHANG", "job": "Nhân viên bán hàng", "gender": "Nam", "birth_date": "1999-02-18", "phone": "0900000103", "identity": "000000000103", "email": "demo03@cakecrush.example", "address": "Địa chỉ mẫu 03, Đà Nẵng", "start_date": "2025-11-01"},
+    {"name": "Phạm Thu Hà", "department": "MARKETING", "job": "Nhân viên marketing", "gender": "Nữ", "birth_date": "1998-11-09", "phone": "0900000104", "identity": "000000000104", "email": "demo04@cakecrush.example", "address": "Địa chỉ mẫu 04, Đà Nẵng", "start_date": "2026-03-01"},
+    {"name": "Võ Thanh Tùng", "department": "KETOAN", "job": "Kế toán viên", "gender": "Nam", "birth_date": "1995-05-20", "phone": "0900000105", "identity": "000000000105", "email": "demo05@cakecrush.example", "address": "Địa chỉ mẫu 05, Đà Nẵng", "start_date": "2025-10-01"},
+    {"name": "Đặng Ngọc Lan", "department": "VANHANH", "job": "Điều phối vận hành", "gender": "Nữ", "birth_date": "1993-08-15", "phone": "0900000106", "identity": "000000000106", "email": "demo06@cakecrush.example", "address": "Địa chỉ mẫu 06, Đà Nẵng", "start_date": "2026-06-01"},
+    {"name": "Bùi Gia Huy", "department": "BEP", "job": "Phụ bếp", "gender": "Nam", "birth_date": "2002-01-30", "phone": "0900000107", "identity": "000000000107", "email": "demo07@cakecrush.example", "address": "Địa chỉ mẫu 07, Đà Nẵng", "start_date": "2026-09-15"},
+    {"name": "Đỗ Khánh Linh", "department": "CUAHANG", "job": "Thu ngân", "gender": "Nữ", "birth_date": "2000-04-06", "phone": "0900000108", "identity": "000000000108", "email": "demo08@cakecrush.example", "address": "Địa chỉ mẫu 08, Đà Nẵng", "start_date": "2026-11-01"},
+    {"name": "Hoàng Tuấn Kiệt", "department": "BANHANG", "job": "Tư vấn khách hàng", "gender": "Nam", "birth_date": "1997-12-02", "phone": "0900000109", "identity": "000000000109", "email": "demo09@cakecrush.example", "address": "Địa chỉ mẫu 09, Đà Nẵng", "start_date": "2025-09-01"},
+    {"name": "Trương Minh Thư", "department": "MARKETING", "job": "Nhân viên marketing", "gender": "Nữ", "birth_date": "1999-06-17", "phone": "0900000110", "identity": "000000000110", "email": "demo10@cakecrush.example", "address": "Địa chỉ mẫu 10, Đà Nẵng", "start_date": "2026-01-01", "end_date": "2026-09-30", "reason": "Kết thúc công tác theo nguyện vọng cá nhân (dữ liệu mẫu)."}
+  ],
+  "contracts": [
+    {"employee_email": "demo01@cakecrush.example", "type": "THU_VIEC", "signed_date": "2025-10-28", "start_date": "2025-11-01", "end_date": "2025-12-31", "salary": "10000000.00"},
+    {"employee_email": "demo01@cakecrush.example", "type": "XAC_DINH_1_NAM", "signed_date": "2025-12-28", "start_date": "2026-01-01", "end_date": "2026-12-31", "salary": "15000000.00"},
+    {"employee_email": "demo02@cakecrush.example", "type": "KHONG_XAC_DINH", "signed_date": "2025-06-28", "start_date": "2025-07-01", "end_date": null, "salary": "12000000.00"},
+    {"employee_email": "demo03@cakecrush.example", "type": "XAC_DINH_1_NAM", "signed_date": "2025-10-28", "start_date": "2025-11-01", "end_date": "2026-10-31", "salary": "9000000.00"},
+    {"employee_email": "demo04@cakecrush.example", "type": "XAC_DINH_1_NAM", "signed_date": "2026-02-26", "start_date": "2026-03-01", "end_date": "2027-02-28", "salary": "11000000.00"},
+    {"employee_email": "demo05@cakecrush.example", "type": "KHONG_XAC_DINH", "signed_date": "2025-09-28", "start_date": "2025-10-01", "end_date": null, "salary": "13000000.00"},
+    {"employee_email": "demo06@cakecrush.example", "type": "XAC_DINH_1_NAM", "signed_date": "2026-05-28", "start_date": "2026-06-01", "end_date": "2027-05-31", "renewal_date": "2026-08-01", "salary": "14000000.00"},
+    {"employee_email": "demo07@cakecrush.example", "type": "THU_VIEC", "signed_date": "2026-09-12", "start_date": "2026-09-15", "end_date": "2026-11-14", "salary": "6500000.00"},
+    {"employee_email": "demo08@cakecrush.example", "type": "XAC_DINH_1_NAM", "signed_date": "2026-10-05", "start_date": "2026-11-01", "end_date": "2027-10-31", "salary": "8000000.00"},
+    {"employee_email": "demo09@cakecrush.example", "type": "XAC_DINH_1_NAM", "signed_date": "2025-08-28", "start_date": "2025-09-01", "end_date": "2026-08-31", "salary": "8500000.00"},
+    {"employee_email": "demo10@cakecrush.example", "type": "XAC_DINH_1_NAM", "signed_date": "2025-12-28", "start_date": "2026-01-01", "end_date": "2026-12-31", "salary": "10000000.00", "status": "CHAMDUT"}
+  ]
+}

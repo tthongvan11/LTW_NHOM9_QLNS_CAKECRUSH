@@ -1,0 +1,33 @@
+{% extends "base.html" %}{% load static %}
+{% block title %}Đăng nhập | Cake Crush{% endblock %}
+{% block extra_css %}<link rel="stylesheet" href="{% static 'fonts/inter/inter.css' %}"><link rel="stylesheet" href="{% static 'css/employees.css' %}">{% endblock %}
+{% block body_attributes %}class="cc-app cc-auth"{% endblock %}
+{% block body %}
+<main class="cc-auth-main">
+    <section class="cc-panel cc-auth-card">
+        <a class="cc-brand" href="{% url 'core:home' %}"><span class="cc-brand-mark">{% include "employees/includes/icon.html" with name="cake" %}</span><span><strong>Cake Crush</strong><small>HUMAN RESOURCES</small></span></a>
+        <h1>Đăng nhập</h1><p>Đăng nhập để quản lý hồ sơ và hợp đồng.</p>
+        {% if dev_accounts %}
+        {# Chỉ hiện nút test khi máy chủ cung cấp tài khoản dev còn hợp lệ. #}<section class="cc-dev-login" aria-label="Chọn vai trò test">
+            <strong>Test nhanh <span>DEV</span></strong>
+            <p>Chọn vai trò để tự điền thông tin đăng nhập.</p>
+            <div class="cc-dev-login-roles">
+                {% for account in dev_accounts %}<button type="button" class="cc-button cc-button-secondary" data-dev-role="{{ account.role }}" aria-pressed="false">{{ account.label }}</button>{% endfor %}
+            </div>
+            <p class="cc-dev-login-status" aria-live="polite">Dùng tài khoản test trong database.</p>
+        </section>
+        {% endif %}
+        <form method="post">{% csrf_token %}
+            {% if form.errors %}<div class="cc-form-error" role="alert">Tên đăng nhập hoặc mật khẩu không đúng, hoặc tài khoản đã bị khóa.</div>{% endif %}
+            <label class="cc-field">Tên đăng nhập<input name="username" value="{{ form.username.value|default:'' }}" autocomplete="username" required autofocus maxlength="150"></label>
+            <label class="cc-field">Mật khẩu<input name="password" type="password" autocomplete="current-password" required></label>
+            <input type="hidden" name="next" value="{{ next }}">
+            <button class="cc-button cc-button-primary" type="submit">Đăng nhập</button>
+        </form>
+    </section>
+</main>
+{% if dev_accounts %}
+{{ dev_accounts|json_script:"dev-login-accounts" }}
+<script src="{% static 'js/dev-login.js' %}" defer></script>
+{% endif %}
+{% endblock %}

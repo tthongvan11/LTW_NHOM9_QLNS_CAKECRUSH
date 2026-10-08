@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1600" viewBox="0 0 1700 1600"><rect width="100%" height="100%" fill="white"/>
+<text x="850.0" y="67" text-anchor="middle" font-family="Times New Roman" font-size="43" fill="#152b3c">Luồng tạo và chỉnh sửa hoặc gia hạn hợp đồng</text>
+<rect x="90" y="115" width="1050" height="145" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="615.0" y="199.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">initContractForm dựng các ô theo chế độ tạo/sửa</text>
+<rect x="90" y="305" width="1050" height="145" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="615.0" y="389.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">Kiểm tra ngày, lương và trùng khoảng ở trình duyệt</text>
+<path d="M615.0,260 L615.0,305" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="615.0,305 607.2116331538269,286.5787801199423 622.7883668461731,286.5787801199423" fill="#30546b"/>
+<rect x="90" y="495" width="1050" height="145" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="615.0" y="579.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">submit → CSRF → mutation → contract_save</text>
+<path d="M615.0,450 L615.0,495" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="615.0,495 607.2116331538269,476.5787801199423 622.7883668461731,476.5787801199423" fill="#30546b"/>
+<rect x="90" y="685" width="1050" height="145" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="615.0" y="769.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">Mới: ContractForm. Sửa: ContractUpdateForm</text>
+<path d="M615.0,640 L615.0,685" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="615.0,685 607.2116331538269,666.5787801199423 622.7883668461731,666.5787801199423" fill="#30546b"/>
+<rect x="90" y="875" width="1050" height="145" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="615.0" y="959.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">Contract.clean kiểm tra nhân viên và khoảng ngày</text>
+<path d="M615.0,830 L615.0,875" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="615.0,875 607.2116331538269,856.5787801199423 622.7883668461731,856.5787801199423" fill="#30546b"/>
+<rect x="90" y="1065" width="1050" height="145" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="615.0" y="1149.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">Contract.save tính trạng thái → cấp/giữ mã → ghi bảng</text>
+<path d="M615.0,1020 L615.0,1065" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="615.0,1065 607.2116331538269,1046.5787801199424 622.7883668461731,1046.5787801199424" fill="#30546b"/>
+<rect x="90" y="1255" width="1050" height="145" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="615.0" y="1339.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">Trả JSON id → mở lại danh sách hợp đồng</text>
+<path d="M615.0,1210 L615.0,1255" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="615.0,1255 607.2116331538269,1236.5787801199424 622.7883668461731,1236.5787801199424" fill="#30546b"/>
+<rect x="1220" y="875" width="400" height="210" rx="16" fill="#fff4de" stroke="#30546b" stroke-width="3"/>
+<text x="1420.0" y="942.0" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">Trùng thời gian: 400</text>
+<text x="1420.0" y="992.0" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">Nhân viên nghỉ: 400</text>
+<text x="1420.0" y="1042.0" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">Đã chấm dứt: 400</text>
+<path d="M1140,947 L1220,947" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="1220,947 1201.5787801199424,954.7883668461731 1201.5787801199424,939.2116331538269" fill="#30546b"/>
+<text x="850.0" y="1547" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Gia hạn sửa chính bản ghi, không tạo bản hợp đồng hay lịch sử phiên bản mới.</text>
+</svg>

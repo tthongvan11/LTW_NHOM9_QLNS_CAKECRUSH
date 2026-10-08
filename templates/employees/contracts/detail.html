@@ -1,0 +1,6 @@
+{% extends "employees/base.html" %}
+{% block employees_content %}
+<a class="cc-back" href="{% url 'employees:contract_list' %}"><span aria-hidden="true">‹</span>Quay lại</a>
+<div class="cc-page-header"><h1>Chi tiết hợp đồng</h1><div class="cc-header-actions" id="contract-detail-actions"></div></div>
+{# Vùng này nhận nội dung từ renderContractDetail; dữ liệu đã được máy chủ kiểm tra quyền. #}<div id="contract-detail-content"></div>
+{% endblock %}

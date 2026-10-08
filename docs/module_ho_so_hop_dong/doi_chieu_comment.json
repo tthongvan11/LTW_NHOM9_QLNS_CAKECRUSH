@@ -1,0 +1,706 @@
+[
+  {
+    "file": "apps/employees/access.py",
+    "before_sha256": "7cea2038c058ec960ec362f0888b203cb03a7335731d16bf467c33cb90a2be90",
+    "after_sha256": "68532728b574e6fc2fb0089e64adcb46af762f5b9631332010d00a43df78b2a5",
+    "comments": [
+      {
+        "line": 8,
+        "comment": "# Quyền được đọc từ tài khoản đã xác thực; tham số trên địa chỉ trang không cấp quyền."
+      },
+      {
+        "line": 13,
+        "comment": "# Bọc trang quản lý: yêu cầu đăng nhập, chỉ nhận thao tác xem và từ chối Nhân viên."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "apps/employees/views.py",
+    "before_sha256": "08afcb4b7cf4c3a13f6a0979bde025a877ebc36b480da7a5a833b09387c1a7df",
+    "after_sha256": "8eab6cfce03716d5b02977a63a099d68f82784ff7f76e4dff747234761f62644",
+    "comments": [
+      {
+        "line": 11,
+        "comment": "# Chuẩn bị khung trang và dữ liệu đúng phạm vi người đăng nhập trước khi gửi HTML về trình duyệt."
+      },
+      {
+        "line": 22,
+        "comment": "# Trang danh sách dùng dữ liệu từ bootstrap; việc lọc/phân trang thực hiện trong employees.js."
+      },
+      {
+        "line": 28,
+        "comment": "# Mở biểu mẫu trống; thao tác lưu sau đó đi tới API, không ghi dữ liệu tại hàm này."
+      },
+      {
+        "line": 34,
+        "comment": "# Kiểm tra mã hồ sơ tồn tại trước khi gửi trang; dữ liệu chi tiết được JavaScript dựng lại."
+      },
+      {
+        "line": 44,
+        "comment": "# Cùng dùng biểu mẫu thêm hồ sơ; record_id giúp trình duyệt điền đúng bản ghi cần sửa."
+      },
+      {
+        "line": 56,
+        "comment": "# Phạm vi dữ liệu cá nhân được giới hạn trong serializers.bootstrap, không lấy mã nhân viên từ URL."
+      },
+      {
+        "line": 62,
+        "comment": "# Danh sách nhận trạng thái do máy chủ tính; trình duyệt chỉ lọc và hiển thị các trạng thái đó."
+      },
+      {
+        "line": 68,
+        "comment": "# Chỉ mở trang tạo hợp đồng; lựa chọn nhân viên và ô nhập được dựng trong JavaScript."
+      },
+      {
+        "line": 74,
+        "comment": "# Mã hợp đồng không tồn tại trả về trang 404 thay vì một trang chi tiết rỗng."
+      },
+      {
+        "line": 84,
+        "comment": "# Mở giao diện cập nhật; phía máy chủ chỉ cho sửa ngày gia hạn, ngày hết hạn và lương."
+      },
+      {
+        "line": 96,
+        "comment": "# Chỉ xem hợp đồng thuộc hồ sơ liên kết với tài khoản đang đăng nhập."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "apps/employees/api.py",
+    "before_sha256": "490b50be491d6de26d0f55c46c26096b8a3505fd84f6c47995f8d87b63a78da1",
+    "after_sha256": "ee5edd6d8940ad7351e27180492270b8b7df19c11439ad3c389f140560650e17",
+    "comments": [
+      {
+        "line": 18,
+        "comment": "# Lớp kiểm tra chung cho mọi thao tác ghi; CSRF vẫn được Django kiểm tra trước khi tới đây."
+      },
+      {
+        "line": 30,
+        "comment": "# JSON phải là một bộ tên trường/giá trị chuỗi, đúng dạng dữ liệu biểu mẫu gửi từ trình duyệt."
+      },
+      {
+        "line": 38,
+        "comment": "# Nhóm các thay đổi thành một lần lưu: có lỗi thì hoàn tác, tránh hồ sơ/tài khoản bị cập nhật dở dang."
+      },
+      {
+        "line": 43,
+        "comment": "# Bảng vẫn có thể từ chối dữ liệu trùng dù biểu mẫu đã kiểm tra, chẳng hạn hai người lưu cùng lúc."
+      },
+      {
+        "line": 52,
+        "comment": "# Biểu mẫu kiểm tra dữ liệu và quy tắc của model; chỉ dữ liệu hợp lệ mới được lưu và báo thành công."
+      },
+      {
+        "line": 63,
+        "comment": "# Có mã thì sửa hồ sơ đã có; không có mã thì tạo mới. Mã nhân viên không lấy từ dữ liệu gửi lên."
+      },
+      {
+        "line": 70,
+        "comment": "# Vô hiệu hóa giữ hồ sơ/hợp đồng và khóa tài khoản liên kết, không xóa lịch sử hay tự chấm dứt hợp đồng."
+      },
+      {
+        "line": 75,
+        "comment": "# Không cho người dùng vô hiệu hóa chính tài khoản đang thực hiện thao tác."
+      },
+      {
+        "line": 85,
+        "comment": "# Khóa tài khoản trong cùng giao dịch với hồ sơ; các lần xác thực sau sẽ không chấp nhận tài khoản này."
+      },
+      {
+        "line": 94,
+        "comment": "# Tạo và cập nhật dùng hai biểu mẫu khác nhau để khóa các thông tin gốc của hợp đồng khi gia hạn."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "before_sha256": "015f227aed21abe7b2b0fe21ce07a5ee14f91257e761556cffd64608a3eaf765",
+    "after_sha256": "1c9b4586b4a5bfd568a766e79e024384bfe311f240653c4bfb46fe1009a30285",
+    "comments": [
+      {
+        "line": 7,
+        "comment": "# Danh sách fields là các thông tin được phép ghi từ giao diện; trường tài khoản/trạng thái không nằm trong danh sách."
+      },
+      {
+        "line": 15,
+        "comment": "# Chuẩn hóa email và kiểm tra cả hồ sơ đã nghỉ việc; khi sửa bỏ qua chính hồ sơ hiện tại."
+      },
+      {
+        "line": 23,
+        "comment": "# Chỉ chọn nhân viên đang làm việc; nhãn loại hợp đồng trên giao diện sẽ được đổi sang mã lưu trong bảng."
+      },
+      {
+        "line": 32,
+        "comment": "# Ví dụ nhãn Thử việc được đổi thành THU_VIEC để lưu thống nhất trong database."
+      },
+      {
+        "line": 36,
+        "comment": "# Gắn nhân viên đã kiểm tra vào hợp đồng trước khi Django gọi phần kiểm tra quy tắc của model."
+      },
+      {
+        "line": 44,
+        "comment": "# Giới hạn ba trường được sửa; gửi thêm mã nhân viên/loại/ngày bắt đầu cũng không đổi được các trường gốc."
+      },
+      {
+        "line": 51,
+        "comment": "# Thu ngày/lý do nghỉ việc; hàm API sẽ dùng kết quả sạch để đổi trạng thái hồ sơ."
+      },
+      {
+        "line": 60,
+        "comment": "# Ngày nghỉ việc phải nằm từ ngày vào làm đến ngày hiện tại theo giờ của máy chủ."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "apps/employees/models.py",
+    "before_sha256": "5a9e5b931de1da336e20d9de1114f8dd580f4924a6071a1e9b42b246335cd6d3",
+    "after_sha256": "99f76ecad28259a220ee97dfd5a5c50039be1a1852c1db94158a1877eb6a28e7",
+    "comments": [
+      {
+        "line": 11,
+        "comment": "# Danh mục phòng ban dùng chung; hồ sơ lưu liên kết tới phòng ban thay vì chép tên phòng ban vào từng dòng."
+      },
+      {
+        "line": 27,
+        "comment": "# Chặn xóa bằng nhóm bản ghi qua Django để giữ lịch sử; thao tác SQL trực tiếp nằm ngoài lớp bảo vệ này."
+      },
+      {
+        "line": 33,
+        "comment": "# Phần dùng chung cho mã NV/HD và kiểm tra trước khi lưu; hai bảng con không phải tự viết lại quy trình."
+      },
+      {
+        "line": 42,
+        "comment": "# Giao dịch SQLite IMMEDIATE trong settings tuần tự hóa thao tác ghi, bảo vệ bước đọc mã lớn nhất rồi cấp mã mới."
+      },
+      {
+        "line": 45,
+        "comment": "# Chỉ cấp mã cho bản ghi chưa có mã; sửa một hồ sơ/hợp đồng giữ nguyên mã cũ."
+      },
+      {
+        "line": 49,
+        "comment": "# Kiểm tra trường, quy tắc nghiệp vụ và ràng buộc trước khi giao việc ghi thật cho Django."
+      },
+      {
+        "line": 57,
+        "comment": "# Mỗi hồ sơ thuộc một phòng ban và có thể liên kết một tài khoản; có thể tạo hồ sơ trước khi cấp tài khoản."
+      },
+      {
+        "line": 86,
+        "comment": "# Chuẩn hóa chữ nhập vào, kiểm tra ngày và tính nhất quán giữa trạng thái làm việc/thông tin nghỉ việc."
+      },
+      {
+        "line": 116,
+        "comment": "# Mỗi hợp đồng thuộc một nhân viên; ngày và lương được lưu bằng kiểu dữ liệu phù hợp, không chỉ là chữ hiển thị."
+      },
+      {
+        "line": 151,
+        "comment": "# Trạng thái hiệu lực dựa vào ngày máy chủ; Chấm dứt được ưu tiên giữ nguyên nếu đã lưu trạng thái đó."
+      },
+      {
+        "line": 163,
+        "comment": "# Sắp hết hạn là nhãn hiển thị khi còn 1–30 ngày; đúng ngày hết hạn vẫn là Đang hiệu lực."
+      },
+      {
+        "line": 170,
+        "comment": "# Kiểm tra nhân viên, loại hợp đồng, các ngày và khoảng thời gian bị trùng với hợp đồng khác."
+      },
+      {
+        "line": 184,
+        "comment": "# Hai khoảng trùng khi hợp đồng cũ kết thúc từ ngày mới bắt đầu và bắt đầu trước/khi ngày mới kết thúc."
+      },
+      {
+        "line": 193,
+        "comment": "# Lần lưu cập nhật trạng thái trong bảng; lúc xem vẫn tính lại để không phụ thuộc một tác vụ chạy hằng ngày."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "before_sha256": "45ade5f9780661807324fcd677ae75cd67644570d5e98c9673ff0ff428661d6d",
+    "after_sha256": "24f78c3368e90685d969eb4a37440897bffd1373e7c1b06fb968732e0adecfae",
+    "comments": [
+      {
+        "line": 5,
+        "comment": "# Đổi ngày thành YYYY-MM-DD để ô nhập ngày và phép so sánh trên trình duyệt dùng được; thiếu ngày trả chuỗi rỗng."
+      },
+      {
+        "line": 10,
+        "comment": "# Chỉ chuyển các thông tin giao diện cần; liên kết phòng ban được đổi thành tên để người dùng dễ đọc."
+      },
+      {
+        "line": 20,
+        "comment": "# Lương gửi dưới dạng chuỗi để không làm tròn khi hiển thị; trạng thái được tính tại máy chủ."
+      },
+      {
+        "line": 28,
+        "comment": "# Gói dữ liệu lần mở trang: quản lý thấy toàn bộ, nhân viên chỉ thấy hồ sơ/hợp đồng của tài khoản mình."
+      },
+      {
+        "line": 32,
+        "comment": "# Giới hạn trước khi gửi sang trình duyệt; ẩn hàng bằng JavaScript không thể thay thế bước bảo vệ này."
+      },
+      {
+        "line": 36,
+        "comment": "# Có thể chưa liên kết hồ sơ: currentUser sẽ rỗng và trang cá nhân hiện thông báo thay vì dùng nhân viên giả."
+      },
+      {
+        "line": 47,
+        "comment": "# Đọc thông báo sau lần lưu trước để JavaScript hiện kết quả khi trang danh sách được tải lại."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "apps/employees/urls.py",
+    "before_sha256": "df4f8d3faf0904c21f95ab2ed3e6f3dfe01055536c984c9ce52a9adc6c1f7bab",
+    "after_sha256": "fbe443bba1ca6c4a5bdd5d8260dd568c9254e93db561de9eb43b7e5d3d888f2e",
+    "comments": [
+      {
+        "line": 7,
+        "comment": "# Địa chỉ api nhận thao tác ghi; các địa chỉ còn lại mở trang xem/biểu mẫu. Mã trên URL được chuyển vào hàm xử lý."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "apps/employees/admin.py",
+    "before_sha256": "0f813de3d3d781bf10de82327ec6915926ceb15503457484aacc5b4274a35c57",
+    "after_sha256": "be583b728f802027ba010b5831571a16f0c064164027f874087d3e107b3b30a1",
+    "comments": [
+      {
+        "line": 6,
+        "comment": "# Trang quản trị quản lý danh mục phòng ban, tách khỏi các trang hồ sơ của người dùng."
+      },
+      {
+        "line": 13,
+        "comment": "# Có thể liên kết tài khoản tại đây; việc vô hiệu hóa cần qua giao diện nghiệp vụ để khóa tài khoản cùng lúc."
+      },
+      {
+        "line": 25,
+        "comment": "# Mã và trạng thái được chương trình quyết định; không mở quyền xóa lịch sử trong trang quản trị."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "before_sha256": "fb02760f9f38c6cf4fae736ddc678eea3481856f883985b1a56a9685c0d1bac8",
+    "after_sha256": "e959a70d8906df5723e802ee2d429a3cbd2b604c0f3a08947f1e0a2dcceba99a",
+    "comments": [
+      {
+        "line": 22,
+        "comment": "# Lệnh riêng cho dev: đọc file mẫu và thêm bản ghi còn thiếu; không dùng dữ liệu mẫu như dữ liệu nhân sự thật."
+      },
+      {
+        "line": 33,
+        "comment": "# Nếu một mẫu không hợp lệ thì hủy cả lần nạp để không để lại bộ dữ liệu mới chỉ được thêm một phần."
+      },
+      {
+        "line": 56,
+        "comment": "# Nhận diện hợp đồng bằng các trường gốc bất biến; ngày/lương đã sửa sẽ được giữ khi chạy lại."
+      },
+      {
+        "line": 80,
+        "comment": "# Chỉ liên kết dev_staff khi cả tài khoản và hồ sơ chưa có liên kết khác, tránh thay hồ sơ đang dùng."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "apps/accounts/models.py",
+    "before_sha256": "50d3ad7c7424fb1ba83f867f4f1a215b728ec7c3a3a53484881ce1127e0d3e57",
+    "after_sha256": "587dd7d0bf5ac2dce6488e75216486ed4e3c36196015b6c3b51f16488d7edd5c",
+    "comments": [
+      {
+        "line": 6,
+        "comment": "# Tài khoản dùng đăng nhập chung cho website; role là quyền nghiệp vụ, không tự cấp quyền vào trang Django Admin."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "apps/accounts/views.py",
+    "before_sha256": "f50f4ed092c85967356ca4bc5b45af95077092d16ec4f7a169b383e7862f4343",
+    "after_sha256": "5d7353f8abbedce52a95730dec78c8b49e2ecabffab98c171ce6d9d81f261add",
+    "comments": [
+      {
+        "line": 7,
+        "comment": "# Dùng cơ chế kiểm tra mật khẩu/phiên đăng nhập có sẵn của Django; chỉ bổ sung giao diện và nơi chuyển tiếp."
+      },
+      {
+        "line": 12,
+        "comment": "# Thông tin test chỉ xuất hiện khi hàm available_dev_accounts xác nhận môi trường và tài khoản còn hợp lệ."
+      },
+      {
+        "line": 18,
+        "comment": "# Khi không có địa chỉ next hợp lệ, quản lý vào danh sách và nhân viên vào hồ sơ cá nhân."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "apps/accounts/dev_login.py",
+    "before_sha256": "9081e7d86f820ddf67d4fd07d215ac0cab7dfb4a4a0e541d86aab0db7135efa1",
+    "after_sha256": "20eff7fef2856d28dccd30137e0f6ea94c63a6a9f483ca22487004fe978eafdd",
+    "comments": [
+      {
+        "line": 19,
+        "comment": "# Không xuất mật khẩu test khi tắt DEBUG; file mật khẩu cục bộ không được đưa vào repo."
+      },
+      {
+        "line": 36,
+        "comment": "# Ẩn nút nếu tài khoản bị khóa, đổi vai trò hoặc mật khẩu trong file đã không còn đúng."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "config/settings.py",
+    "before_sha256": "717e2215144f7c845f8a8bf02d9653296e3c7cd981138ae7a7c1a3a32d271a60",
+    "after_sha256": "b4dddad4e60f755b6901e8defe005a2606e567c4ac2f6076a5027f157689f292",
+    "comments": [
+      {
+        "line": 44,
+        "comment": "# Các bước chung xử lý yêu cầu: đọc phiên đăng nhập, kiểm tra CSRF và đưa tài khoản/thông báo vào yêu cầu."
+      },
+      {
+        "line": 74,
+        "comment": "# Mặc định dùng db.sqlite3; đường dẫn khác cho phép kiểm tra trên database riêng mà không sửa dữ liệu đang dùng."
+      },
+      {
+        "line": 83,
+        "comment": "# Hồ sơ liên kết model tài khoản này; không tạo một bảng tài khoản riêng trong module employees."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "config/urls.py",
+    "before_sha256": "8e7cbc5f7b91f6c44b1ade30e1b366bc0a9095c3e839518d3b8e519a379e0c20",
+    "after_sha256": "1d94c16bd06eb0671508e5b50429b0d6a2660e26efdd85d4131d7f64352d13fd",
+    "comments": [
+      {
+        "line": 14,
+        "comment": "# Chuyển mọi địa chỉ bắt đầu bằng employees/ sang các đường dẫn của module hồ sơ/hợp đồng."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "static/js/employees.js",
+    "before_sha256": "b61c135e703b1306360d9616b8341256572bdc0789a17768342dc0ee74c760e9",
+    "after_sha256": "523fcd6afe80bae3d2da331564b078f6f766dc15a1bf57047b8a4a3bc9507b7b",
+    "comments": [
+      {
+        "line": 6,
+        "comment": "// Đọc bản dữ liệu đã được Django giới hạn quyền và gắn vào trang; đây là dữ liệu database, không phải bộ demo trong trình duyệt."
+      },
+      {
+        "line": 16,
+        "comment": "// Biến ký tự đặc biệt thành chữ hiển thị an toàn trước khi ghép dữ liệu vào HTML."
+      },
+      {
+        "line": 19,
+        "comment": "// Lưu dùng POST có mã chống giả mạo yêu cầu; chờ máy chủ xác nhận rồi mới chuyển về trang danh sách."
+      },
+      {
+        "line": 21,
+        "comment": "// Chặn bấm lưu nhiều lần khi yêu cầu trước vẫn đang chờ kết quả."
+      },
+      {
+        "line": 32,
+        "comment": "// Phiên hết hạn thì quay lại đăng nhập; giữ địa chỉ trang hiện tại trong next để quay lại sau."
+      },
+      {
+        "line": 42,
+        "comment": "// Dù thành công hay lỗi, mở lại nút lưu; việc chờ mạng không được để biểu mẫu khóa vĩnh viễn."
+      },
+      {
+        "line": 48,
+        "comment": "// Ngày nhập/kiểm tra nhanh theo giờ Việt Nam; máy chủ vẫn kiểm tra lại bằng ngày của chính nó."
+      },
+      {
+        "line": 55,
+        "comment": "// Định dạng chuỗi số để giữ hai chữ số thập phân; không đổi lương sang Number chỉ để trình bày."
+      },
+      {
+        "line": 60,
+        "comment": "// Bỏ dấu và đổi chữ thường giúp tìm Hà bằng từ khóa ha; chỉ dùng cho tìm kiếm, không sửa tên đang lưu."
+      },
+      {
+        "line": 100,
+        "comment": "// Nối menu và thông tin tài khoản với dữ liệu nhận từ máy chủ; đổi giao diện không đổi quyền trên máy chủ."
+      },
+      {
+        "line": 152,
+        "comment": "// Đặt menu thao tác trong vùng nhìn thấy; đóng khi cuộn/đổi kích thước để tránh menu nằm lệch hàng."
+      },
+      {
+        "line": 181,
+        "comment": "// Mỗi trang có bốn dòng; chỉ chia mảng đang có, không gửi một yêu cầu tìm kiếm database cho từng trang."
+      },
+      {
+        "line": 190,
+        "comment": "// Nút vô hiệu hóa chỉ hiện với hồ sơ đang làm việc; các nút sửa vẫn phải qua kiểm tra phía máy chủ."
+      },
+      {
+        "line": 197,
+        "comment": "// Lọc danh sách đã tải theo mã/tên, phòng ban, chức vụ, trạng thái; thay bộ lọc đưa về trang đầu."
+      },
+      {
+        "line": 224,
+        "comment": "// Cùng một biểu mẫu cho thêm và sửa; mã trang quyết định điền bản ghi nào và gửi đến địa chỉ nào."
+      },
+      {
+        "line": 239,
+        "comment": "// Dừng cách gửi biểu mẫu mặc định, gom các ô thành bộ tên/giá trị chuỗi và kiểm tra nhanh trước khi gửi."
+      },
+      {
+        "line": 259,
+        "comment": "// Chọn hợp đồng đang hiệu lực, nếu không có dùng bản mới nhất; nhãn Hợp đồng hiện tại không bảo đảm luôn có hợp đồng hiệu lực."
+      },
+      {
+        "line": 273,
+        "comment": "// Hộp xác nhận chỉ thu ngày và lý do; API mới là nơi đổi trạng thái hồ sơ và khóa tài khoản."
+      },
+      {
+        "line": 304,
+        "comment": "// Dùng trạng thái đã tính trên máy chủ để lọc, đếm cảnh báo và trình bày danh sách hợp đồng."
+      },
+      {
+        "line": 338,
+        "comment": "// Tạo mới cho nhập các thông tin gốc; gia hạn chỉ cho nhập ngày/lương, máy chủ cũng giới hạn các trường này."
+      },
+      {
+        "line": 386,
+        "comment": "// Kiểm tra nhanh hai khoảng ngày có giao nhau; hợp đồng chấm dứt không chặn một hợp đồng mới."
+      },
+      {
+        "line": 401,
+        "comment": "// Dùng lại cách dựng chi tiết cho Quản lý và Nhân viên; chính sách chưa có dữ liệu sẽ hiện Chưa cập nhật."
+      },
+      {
+        "line": 420,
+        "comment": "// Chỉ các hợp đồng của currentUser được trình bày; máy chủ đã giới hạn dữ liệu trước bước này."
+      },
+      {
+        "line": 434,
+        "comment": "// Hồ sơ cá nhân lấy từ liên kết tài khoản; chưa liên kết thì hiện trạng thái rỗng, không gán một nhân viên mẫu."
+      },
+      {
+        "line": 457,
+        "comment": "// Bảng chọn hàm theo data-page nối từng trang HTML với phần xử lý tương ứng."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "static/js/dev-login.js",
+    "before_sha256": "437ee2f14a7846f8e6c31f1d76536abcffc541072ad92709e7635042ce9e6209",
+    "after_sha256": "33ca295a3b676f750a0e2acbff0d393d03e11a680f3ff8c2d16495e4216eeb57",
+    "comments": [
+      {
+        "line": 2,
+        "comment": "// Khối JSON test chỉ có trên trang đăng nhập dev; không có khối này thì script dừng ngay."
+      },
+      {
+        "line": 15,
+        "comment": "// Chỉ điền hai ô; người dùng vẫn bấm Đăng nhập để Django kiểm tra tài khoản/mật khẩu thật."
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "static/css/employees.css",
+    "before_sha256": "80b82614ae59a55b595db8438902a0db4f7e033f0b63ff977fc66aad55418a6e",
+    "after_sha256": "1a91043d506ec0002c6715bcdb54399ae065f8a9e8e5e3d0549d9aa8479d1846",
+    "comments": [
+      {
+        "line": 1,
+        "comment": "/* Các giá trị màu/kích thước dùng chung cho giao diện; không chứa quy tắc cấp quyền hoặc ghi database. */"
+      },
+      {
+        "line": 98,
+        "comment": "/* Chia chiều rộng cố định theo cột để bảng gọn; số bản ghi trên mỗi trang do JavaScript quyết định. */"
+      },
+      {
+        "line": 234,
+        "comment": "/* Khung đăng nhập/đổi mật khẩu dùng lại phông chữ và màu của module. */"
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "templates/employees/base.html",
+    "before_sha256": "557689d3575391361613fdc0a18ff9ec86a78bae212e76e0d1cbc6490f0ee75d",
+    "after_sha256": "2837aae3762ac7e73d23a989bf759c45f1b71489f0b973f541482c94ba332883",
+    "comments": [
+      {
+        "line": 9,
+        "comment": "{# Dữ liệu data-page, mã bản ghi và địa chỉ được JavaScript dùng để chọn đúng cách dựng trang. #}"
+      },
+      {
+        "line": 55,
+        "comment": "{# Hộp vô hiệu hóa dùng chung cũng chứa mã CSRF cho các yêu cầu ghi bằng JavaScript. #}"
+      },
+      {
+        "line": 70,
+        "comment": "{# Django mã hóa dữ liệu thành JSON an toàn; JavaScript đọc đúng khối employees-bootstrap này. #}"
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "templates/employees/employees/list.html",
+    "before_sha256": "59f780465641b007a963a3d6c92920cb446d2f85ea0b49d66adf91f9d8cb4c9a",
+    "after_sha256": "2796d36a19e5fae91f760b4c5c2375ecedfb9ac80af209adb2c2c2a678017279",
+    "comments": [
+      {
+        "line": 3,
+        "comment": "{# Trang tạo chỗ đặt bộ lọc/bảng; các hàng và phân trang được employees.js điền sau. #}"
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "templates/employees/employees/form.html",
+    "before_sha256": "0b0a3d3bee903fc9c124f15e4bce8c49f51ea3ae874004f20001379c0f0258d3",
+    "after_sha256": "07cebfac82094928d012a7dde1f9d8c6e9f67a96616f83f6d0dacbcf63f12279",
+    "comments": [
+      {
+        "line": 5,
+        "comment": "{# Tên các ô khớp EmployeeForm; required/pattern hỗ trợ nhập đúng nhưng máy chủ vẫn kiểm tra lại. #}"
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "templates/employees/employees/detail.html",
+    "before_sha256": "f9318db711395e6a7767f600a9cb6da5734e43ff19785d0d23e5c5659e19553a",
+    "after_sha256": "d01c6ff4c68362662166cc37d7d1aeacda3c616351ddb819221dbcf18a8bb1f1",
+    "comments": [
+      {
+        "line": 5,
+        "comment": "{# Vùng này nhận nội dung từ renderEmployeeDetail sau khi trang tải xong. #}"
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "templates/employees/employees/my_profile.html",
+    "before_sha256": "8e02bf6175044197f39d5f49887d4536811a819da37269c2dfc01c9f0058c83d",
+    "after_sha256": "d2e9a6f3f78e6ec175ade99d52f2070b23e1a24f6ab6d367b66f3b65ec18179b",
+    "comments": [
+      {
+        "line": 4,
+        "comment": "{# Vùng hồ sơ cá nhân nhận dữ liệu tài khoản hiện tại, không lấy mã từ người dùng nhập. #}"
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "templates/employees/contracts/list.html",
+    "before_sha256": "6d554aad001b1db897fe747659327cb567f14796a05ca59b44e29ce9e7823492",
+    "after_sha256": "89030190a0fed44bc9deaf8f3d99f42a77a9597a4bfb6c462eefa0862203bacc",
+    "comments": [
+      {
+        "line": 10,
+        "comment": "{# Cảnh báo được JavaScript mở khi dữ liệu máy chủ có hợp đồng sắp hết hạn. #}"
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "templates/employees/contracts/form.html",
+    "before_sha256": "1e15ad1b90569c08f9dfcbb9cdbf885eacbe9eda0674c80474a32484136fa383",
+    "after_sha256": "1de6aa1d6b87f488042a6f828363bcd0447072c1ab914281295bbc1a924886aa",
+    "comments": [
+      {
+        "line": 5,
+        "comment": "{# Các ô tạo/gia hạn được initContractForm dựng vào contract-fields; biểu mẫu chỉ mở khung chung. #}"
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "templates/employees/contracts/detail.html",
+    "before_sha256": "acef82105df75b61ca312181f1afd9baf35bcad674ca9377beaa8e0a42a78975",
+    "after_sha256": "366db2448f48e0f1adc2a77144dc34c4f40d93c03dee267e517bf17e9223b8ae",
+    "comments": [
+      {
+        "line": 5,
+        "comment": "{# Vùng này nhận nội dung từ renderContractDetail; dữ liệu đã được máy chủ kiểm tra quyền. #}"
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "templates/employees/contracts/my_contracts.html",
+    "before_sha256": "be4c9521f024db8f7763076766d89d4b7348631e1c359f6c2c1cf288abfd2fe3",
+    "after_sha256": "e38e8df394556c1c09f2f7b391901c8d0776d2ef0f8a0426af2d26854b6f5bb1",
+    "comments": [
+      {
+        "line": 4,
+        "comment": "{# Nhiều hợp đồng thì hiện bộ chọn; nội dung chi tiết dùng lại contractContent. #}"
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "templates/employees/includes/icon.html",
+    "before_sha256": "ef0e755efd7f373e9057b1b7d1bd8798dde82cf42e97960a1fecc161f23a21c8",
+    "after_sha256": "bcf64b794bb862a3b5bbcf861fc6efc37c53de3bde7ab8aa7d344e9d2c8942f7",
+    "comments": [
+      {
+        "line": 1,
+        "comment": "{# Biểu tượng chỉ phục vụ trình bày, không mang dữ liệu hoặc thao tác nghiệp vụ. #}"
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  },
+  {
+    "file": "templates/accounts/login.html",
+    "before_sha256": "91eac6dc67f4af26043f44a2b4e2a81611d0927cbae39ab18142f29348debf34",
+    "after_sha256": "d8dedbab4b35575bb3e3de42a88b5686d6a7d5018675981de1f89dbb8f371a9b",
+    "comments": [
+      {
+        "line": 11,
+        "comment": "{# Chỉ hiện nút test khi máy chủ cung cấp tài khoản dev còn hợp lệ. #}"
+      }
+    ],
+    "original_bytes_preserved_after_removing_added_comments": true,
+    "verified_again_after_comments": true
+  }
+]

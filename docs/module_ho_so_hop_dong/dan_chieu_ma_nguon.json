@@ -1,0 +1,4881 @@
+[
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Employee",
+    "start": 58,
+    "end": 113,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract",
+    "start": 117,
+    "end": 200,
+    "anchor": null
+  },
+  {
+    "file": "config/settings.py",
+    "symbol": null,
+    "start": 73,
+    "end": 80,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "is_manager",
+    "start": 9,
+    "end": 10,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "manager_page",
+    "start": 14,
+    "end": 23,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "mutation",
+    "start": 19,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": null,
+    "start": 1,
+    "end": 98,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeList",
+    "start": 198,
+    "end": 223,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initContractList",
+    "start": 305,
+    "end": 331,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": null,
+    "start": 1,
+    "end": 103,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": "Command.handle",
+    "start": 23,
+    "end": 94,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.Status",
+    "start": 123,
+    "end": 127,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "contractContent",
+    "start": 402,
+    "end": 413,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initShell",
+    "start": 101,
+    "end": 180,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 19,
+    "end": 26,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/admin.py",
+    "symbol": "EmployeeAdmin",
+    "start": 12,
+    "end": 21,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": null,
+    "start": 1,
+    "end": 23,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/urls.py",
+    "symbol": null,
+    "start": 1,
+    "end": 24,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": null,
+    "start": 1,
+    "end": 98,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": null,
+    "start": 1,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": null,
+    "start": 1,
+    "end": 103,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": null,
+    "start": 1,
+    "end": 65,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 1,
+    "end": 200,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/admin.py",
+    "symbol": null,
+    "start": 1,
+    "end": 33,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": null,
+    "start": 1,
+    "end": 303,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/apps.py",
+    "symbol": null,
+    "start": 1,
+    "end": 7,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": null,
+    "start": 1,
+    "end": 94,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/sample_data/hr_demo.json",
+    "symbol": null,
+    "start": 1,
+    "end": 31,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 1,
+    "end": 471,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 1,
+    "end": 72,
+    "anchor": null
+  },
+  {
+    "file": "static/css/employees.css",
+    "symbol": null,
+    "start": 1,
+    "end": 387,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/models.py",
+    "symbol": null,
+    "start": 1,
+    "end": 22,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/views.py",
+    "symbol": null,
+    "start": 1,
+    "end": 21,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/dev_login.py",
+    "symbol": null,
+    "start": 1,
+    "end": 39,
+    "anchor": null
+  },
+  {
+    "file": "config/settings.py",
+    "symbol": null,
+    "start": 1,
+    "end": 112,
+    "anchor": null
+  },
+  {
+    "file": "config/urls.py",
+    "symbol": null,
+    "start": 1,
+    "end": 19,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/migrations/0001_initial.py",
+    "symbol": null,
+    "start": 1,
+    "end": 105,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/migrations/0002_departments.py",
+    "symbol": null,
+    "start": 1,
+    "end": 12,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/migrations/0003_remove_contract_contract_valid_end_date_and_more.py",
+    "symbol": null,
+    "start": 1,
+    "end": 21,
+    "anchor": null
+  },
+  {
+    "file": "config/settings.py",
+    "symbol": null,
+    "start": 44,
+    "end": 53,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "submit",
+    "start": 20,
+    "end": 47,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "_page",
+    "start": 12,
+    "end": 18,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 69,
+    "end": 71,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 459,
+    "end": 470,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "save_form",
+    "start": 53,
+    "end": 59,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "EmployeeForm",
+    "start": 8,
+    "end": 20,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Employee",
+    "start": 58,
+    "end": 113,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "mutation",
+    "start": 19,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "save_form",
+    "start": 53,
+    "end": 59,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_deactivate",
+    "start": 69,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "submit",
+    "start": 20,
+    "end": 47,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/models.py",
+    "symbol": "User",
+    "start": 7,
+    "end": 22,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 58,
+    "end": 63,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_deactivate",
+    "start": 69,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/dev_login.py",
+    "symbol": "available_dev_accounts",
+    "start": 20,
+    "end": 39,
+    "anchor": null
+  },
+  {
+    "file": "static/js/dev-login.js",
+    "symbol": null,
+    "start": 1,
+    "end": 26,
+    "anchor": null
+  },
+  {
+    "file": "config/settings.py",
+    "symbol": null,
+    "start": 1,
+    "end": 112,
+    "anchor": null
+  },
+  {
+    "file": "config/urls.py",
+    "symbol": null,
+    "start": 1,
+    "end": 19,
+    "anchor": null
+  },
+  {
+    "file": "templates/base.html",
+    "symbol": null,
+    "start": 1,
+    "end": 22,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 1,
+    "end": 72,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/admin.py",
+    "symbol": null,
+    "start": 1,
+    "end": 33,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/urls.py",
+    "symbol": null,
+    "start": 1,
+    "end": 11,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 19,
+    "end": 26,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 45,
+    "end": 47,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Department",
+    "start": 12,
+    "end": 24,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 58,
+    "end": 84,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 117,
+    "end": 148,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/models.py",
+    "symbol": "User",
+    "start": 7,
+    "end": 22,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "EmployeeForm",
+    "start": 8,
+    "end": 20,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractForm",
+    "start": 24,
+    "end": 41,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "employee_data",
+    "start": 11,
+    "end": 17,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "contract_data",
+    "start": 21,
+    "end": 25,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "date",
+    "start": 54,
+    "end": 54,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "money",
+    "start": 56,
+    "end": 59,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 69,
+    "end": 71,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 4,
+    "end": 13,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "CodedHistoryModel.save",
+    "start": 43,
+    "end": 51,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.clean",
+    "start": 171,
+    "end": 191,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initContractForm",
+    "start": 339,
+    "end": 400,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "HistoryQuerySet.delete",
+    "start": 29,
+    "end": 30,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "CodedHistoryModel.delete",
+    "start": 53,
+    "end": 54,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Employee.Meta",
+    "start": 76,
+    "end": 84,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.Meta",
+    "start": 140,
+    "end": 148,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/admin.py",
+    "symbol": null,
+    "start": 1,
+    "end": 33,
+    "anchor": null
+  },
+  {
+    "file": "config/urls.py",
+    "symbol": null,
+    "start": 1,
+    "end": 19,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/urls.py",
+    "symbol": null,
+    "start": 14,
+    "end": 14,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "manager_page",
+    "start": 14,
+    "end": 23,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "is_manager",
+    "start": 9,
+    "end": 10,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "employee_list",
+    "start": 21,
+    "end": 24,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "_page",
+    "start": 12,
+    "end": 18,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "employee_list",
+    "start": 21,
+    "end": 24,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "employee_list",
+    "start": 24,
+    "end": 24,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "_page",
+    "start": 12,
+    "end": 18,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "_page",
+    "start": 12,
+    "end": 18,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "_page",
+    "start": 17,
+    "end": 17,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "employee_data",
+    "start": 11,
+    "end": 17,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "contract_data",
+    "start": 21,
+    "end": 25,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 69,
+    "end": 71,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 40,
+    "end": 40,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "employee_data",
+    "start": 11,
+    "end": 17,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 41,
+    "end": 41,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "contract_data",
+    "start": 21,
+    "end": 25,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 6,
+    "end": 13,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeList",
+    "start": 198,
+    "end": 223,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "paginate",
+    "start": 182,
+    "end": 189,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 459,
+    "end": 470,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/urls.py",
+    "symbol": null,
+    "start": 23,
+    "end": 23,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "employee_detail",
+    "start": 33,
+    "end": 40,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderEmployeeDetail",
+    "start": 260,
+    "end": 272,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeList",
+    "start": 198,
+    "end": 223,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "normalize",
+    "start": 61,
+    "end": 61,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeList",
+    "start": 198,
+    "end": 223,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "paginate",
+    "start": 182,
+    "end": 189,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeList",
+    "start": 198,
+    "end": 223,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeList",
+    "start": 198,
+    "end": 223,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeList",
+    "start": 217,
+    "end": 217,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "paginate",
+    "start": 182,
+    "end": 189,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initContractList",
+    "start": 305,
+    "end": 331,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "contractStatus",
+    "start": 80,
+    "end": 80,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initShell",
+    "start": 101,
+    "end": 180,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "employee_create",
+    "start": 27,
+    "end": 30,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/employees/form.html",
+    "symbol": null,
+    "start": 1,
+    "end": 25,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeForm",
+    "start": 225,
+    "end": 254,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeForm",
+    "start": 225,
+    "end": 254,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "submit",
+    "start": 20,
+    "end": 47,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/urls.py",
+    "symbol": null,
+    "start": 9,
+    "end": 9,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 29,
+    "end": 29,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 56,
+    "end": 58,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeForm",
+    "start": 225,
+    "end": 254,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeForm",
+    "start": 251,
+    "end": 251,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "submit",
+    "start": 20,
+    "end": 47,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "mutation",
+    "start": 19,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_save",
+    "start": 62,
+    "end": 66,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "save_form",
+    "start": 53,
+    "end": 59,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "EmployeeForm",
+    "start": 8,
+    "end": 20,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Employee.clean",
+    "start": 87,
+    "end": 110,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_save",
+    "start": 62,
+    "end": 66,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_save",
+    "start": 66,
+    "end": 66,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "save_form",
+    "start": 53,
+    "end": 59,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "CodedHistoryModel.save",
+    "start": 43,
+    "end": 51,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "save_form",
+    "start": 53,
+    "end": 59,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "submit",
+    "start": 20,
+    "end": 47,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "employee_edit",
+    "start": 43,
+    "end": 50,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeForm",
+    "start": 225,
+    "end": 254,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_save",
+    "start": 62,
+    "end": 66,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "EmployeeForm.Meta",
+    "start": 11,
+    "end": 13,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "EmployeeForm.clean_email",
+    "start": 16,
+    "end": 20,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Employee.clean",
+    "start": 87,
+    "end": 110,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initDeactivate",
+    "start": 274,
+    "end": 303,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 56,
+    "end": 65,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initDeactivate",
+    "start": 274,
+    "end": 303,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/urls.py",
+    "symbol": null,
+    "start": 11,
+    "end": 11,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "mutation",
+    "start": 19,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_deactivate",
+    "start": 69,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "DeactivateForm",
+    "start": 52,
+    "end": 65,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_deactivate",
+    "start": 69,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Employee.clean",
+    "start": 87,
+    "end": 110,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "CodedHistoryModel.save",
+    "start": 43,
+    "end": 51,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "mutation",
+    "start": 19,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_deactivate",
+    "start": 69,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "contract_list",
+    "start": 61,
+    "end": 64,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "contract_detail",
+    "start": 73,
+    "end": 80,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "contract_data",
+    "start": 21,
+    "end": 25,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initContractList",
+    "start": 305,
+    "end": 331,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderContractDetail",
+    "start": 414,
+    "end": 419,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "contractContent",
+    "start": 402,
+    "end": 413,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderContractDetail",
+    "start": 414,
+    "end": 419,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderContractDetail",
+    "start": 418,
+    "end": 418,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "contractContent",
+    "start": 402,
+    "end": 413,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.computed_status",
+    "start": 150,
+    "end": 160,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.display_status",
+    "start": 162,
+    "end": 168,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initContractList",
+    "start": 305,
+    "end": 331,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "contract_create",
+    "start": 67,
+    "end": 70,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/contracts/form.html",
+    "symbol": null,
+    "start": 1,
+    "end": 8,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initContractForm",
+    "start": 339,
+    "end": 400,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initContractForm",
+    "start": 339,
+    "end": 400,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/urls.py",
+    "symbol": null,
+    "start": 12,
+    "end": 12,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "contract_save",
+    "start": 93,
+    "end": 103,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractForm.clean_type",
+    "start": 33,
+    "end": 34,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractForm.clean",
+    "start": 37,
+    "end": 41,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.clean",
+    "start": 171,
+    "end": 191,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.clean",
+    "start": 171,
+    "end": 191,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "save_form",
+    "start": 53,
+    "end": 59,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.save",
+    "start": 194,
+    "end": 197,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "CodedHistoryModel.save",
+    "start": 43,
+    "end": 51,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "submit",
+    "start": 20,
+    "end": 47,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.save",
+    "start": 194,
+    "end": 197,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.save",
+    "start": 197,
+    "end": 197,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "CodedHistoryModel.save",
+    "start": 43,
+    "end": 51,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "contract_edit",
+    "start": 83,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initContractForm",
+    "start": 339,
+    "end": 400,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "contract_save",
+    "start": 93,
+    "end": 103,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractUpdateForm",
+    "start": 45,
+    "end": 48,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "my_profile",
+    "start": 53,
+    "end": 58,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "my_contracts",
+    "start": 93,
+    "end": 98,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "_page",
+    "start": 12,
+    "end": 18,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderMyProfile",
+    "start": 435,
+    "end": 453,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 9,
+    "end": 9,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/urls.py",
+    "symbol": null,
+    "start": 1,
+    "end": 11,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderMyContracts",
+    "start": 421,
+    "end": 433,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "contractContent",
+    "start": 402,
+    "end": 413,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": "Command.handle",
+    "start": 23,
+    "end": 94,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/sample_data/hr_demo.json",
+    "symbol": null,
+    "start": 1,
+    "end": 31,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": null,
+    "start": 34,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": null,
+    "start": 51,
+    "end": 67,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": null,
+    "start": 69,
+    "end": 85,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": null,
+    "start": 31,
+    "end": 94,
+    "anchor": null
+  },
+  {
+    "file": "config/urls.py",
+    "symbol": null,
+    "start": 1,
+    "end": 19,
+    "anchor": null
+  },
+  {
+    "file": "config/urls.py",
+    "symbol": null,
+    "start": 1,
+    "end": 19,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/urls.py",
+    "symbol": null,
+    "start": 1,
+    "end": 24,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/urls.py",
+    "symbol": null,
+    "start": 1,
+    "end": 24,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "is_manager",
+    "start": 9,
+    "end": 10,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "is_manager",
+    "start": 9,
+    "end": 10,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "is_manager",
+    "start": 9,
+    "end": 10,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "manager_page",
+    "start": 14,
+    "end": 23,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "manager_page",
+    "start": 14,
+    "end": 23,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "manager_page",
+    "start": 14,
+    "end": 23,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "manager_page",
+    "start": 14,
+    "end": 23,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "manager_page",
+    "start": 20,
+    "end": 20,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "is_manager",
+    "start": 9,
+    "end": 10,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "_page",
+    "start": 12,
+    "end": 18,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "_page",
+    "start": 12,
+    "end": 18,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "_page",
+    "start": 12,
+    "end": 18,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "_page",
+    "start": 12,
+    "end": 18,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "_page",
+    "start": 13,
+    "end": 13,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "is_manager",
+    "start": 9,
+    "end": 10,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "employee_list",
+    "start": 21,
+    "end": 24,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "employee_create",
+    "start": 27,
+    "end": 30,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "employee_detail",
+    "start": 33,
+    "end": 40,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "employee_edit",
+    "start": 43,
+    "end": 50,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "my_profile",
+    "start": 53,
+    "end": 58,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "contract_list",
+    "start": 61,
+    "end": 64,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "contract_create",
+    "start": 67,
+    "end": 70,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "contract_detail",
+    "start": 73,
+    "end": 80,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "contract_edit",
+    "start": 83,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "my_contracts",
+    "start": 93,
+    "end": 98,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "employee_detail",
+    "start": 33,
+    "end": 40,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "employee_detail",
+    "start": 33,
+    "end": 40,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "date_value",
+    "start": 6,
+    "end": 7,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "date_value",
+    "start": 6,
+    "end": 7,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "date_value",
+    "start": 6,
+    "end": 7,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "employee_data",
+    "start": 11,
+    "end": 17,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "employee_data",
+    "start": 11,
+    "end": 17,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "employee_data",
+    "start": 11,
+    "end": 17,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "contract_data",
+    "start": 21,
+    "end": 25,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "contract_data",
+    "start": 21,
+    "end": 25,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "contract_data",
+    "start": 21,
+    "end": 25,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "contract_data",
+    "start": 21,
+    "end": 25,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "contract_data",
+    "start": 25,
+    "end": 25,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.display_status",
+    "start": 162,
+    "end": 168,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "employee_data",
+    "start": 11,
+    "end": 17,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "employee_data",
+    "start": 15,
+    "end": 15,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "date_value",
+    "start": 6,
+    "end": 7,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": null,
+    "start": 1,
+    "end": 15,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "mutation",
+    "start": 19,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "mutation",
+    "start": 19,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "mutation",
+    "start": 19,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "mutation",
+    "start": 19,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "mutation",
+    "start": 26,
+    "end": 26,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": "is_manager",
+    "start": 9,
+    "end": 10,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "save_form",
+    "start": 53,
+    "end": 59,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "save_form",
+    "start": 53,
+    "end": 59,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "save_form",
+    "start": 53,
+    "end": 59,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_save",
+    "start": 62,
+    "end": 66,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_save",
+    "start": 62,
+    "end": 66,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_save",
+    "start": 62,
+    "end": 66,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_save",
+    "start": 62,
+    "end": 66,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_save",
+    "start": 66,
+    "end": 66,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "EmployeeForm",
+    "start": 8,
+    "end": 20,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_deactivate",
+    "start": 69,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_deactivate",
+    "start": 69,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_deactivate",
+    "start": 69,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_deactivate",
+    "start": 69,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_deactivate",
+    "start": 78,
+    "end": 78,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "DeactivateForm",
+    "start": 52,
+    "end": 65,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "contract_save",
+    "start": 93,
+    "end": 103,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "contract_save",
+    "start": 93,
+    "end": 103,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "contract_save",
+    "start": 93,
+    "end": 103,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "contract_save",
+    "start": 93,
+    "end": 103,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "contract_save",
+    "start": 100,
+    "end": 100,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractUpdateForm",
+    "start": 45,
+    "end": 48,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "contract_save",
+    "start": 93,
+    "end": 103,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "contract_save",
+    "start": 102,
+    "end": 102,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractForm",
+    "start": 24,
+    "end": 41,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "EmployeeForm",
+    "start": 8,
+    "end": 20,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "EmployeeForm",
+    "start": 8,
+    "end": 20,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "EmployeeForm",
+    "start": 8,
+    "end": 20,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractForm",
+    "start": 24,
+    "end": 41,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractForm",
+    "start": 24,
+    "end": 41,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractForm",
+    "start": 24,
+    "end": 41,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractUpdateForm",
+    "start": 45,
+    "end": 48,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractUpdateForm",
+    "start": 45,
+    "end": 48,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractUpdateForm",
+    "start": 45,
+    "end": 48,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "DeactivateForm",
+    "start": 52,
+    "end": 65,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "DeactivateForm",
+    "start": 52,
+    "end": 65,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "DeactivateForm",
+    "start": 52,
+    "end": 65,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 1,
+    "end": 8,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 64,
+    "end": 68,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Employee.Meta",
+    "start": 76,
+    "end": 84,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.Meta",
+    "start": 140,
+    "end": 148,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Department",
+    "start": 12,
+    "end": 24,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Department",
+    "start": 12,
+    "end": 24,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Department",
+    "start": 12,
+    "end": 24,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "HistoryQuerySet.delete",
+    "start": 29,
+    "end": 30,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "HistoryQuerySet.delete",
+    "start": 29,
+    "end": 30,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "HistoryQuerySet.delete",
+    "start": 29,
+    "end": 30,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "CodedHistoryModel.save",
+    "start": 43,
+    "end": 51,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "CodedHistoryModel.save",
+    "start": 43,
+    "end": 51,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "CodedHistoryModel.save",
+    "start": 43,
+    "end": 51,
+    "anchor": null
+  },
+  {
+    "file": "config/settings.py",
+    "symbol": null,
+    "start": 73,
+    "end": 80,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_employee_codes_do_not_collide_at_three_digit_boundary",
+    "start": 167,
+    "end": 171,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "CodedHistoryModel.delete",
+    "start": 53,
+    "end": 54,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "CodedHistoryModel.delete",
+    "start": 53,
+    "end": 54,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "CodedHistoryModel.delete",
+    "start": 53,
+    "end": 54,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 58,
+    "end": 84,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 58,
+    "end": 84,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Employee.clean",
+    "start": 87,
+    "end": 110,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Employee.clean",
+    "start": 87,
+    "end": 110,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Employee.clean",
+    "start": 87,
+    "end": 110,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Employee.__str__",
+    "start": 112,
+    "end": 113,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Employee.clean",
+    "start": 87,
+    "end": 110,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 117,
+    "end": 148,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 117,
+    "end": 148,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.computed_status",
+    "start": 150,
+    "end": 160,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.computed_status",
+    "start": 150,
+    "end": 160,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.computed_status",
+    "start": 150,
+    "end": 160,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.display_status",
+    "start": 162,
+    "end": 168,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.display_status",
+    "start": 162,
+    "end": 168,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.display_status",
+    "start": 162,
+    "end": 168,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.display_status",
+    "start": 162,
+    "end": 168,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.display_status",
+    "start": 165,
+    "end": 165,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.computed_status",
+    "start": 150,
+    "end": 160,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.clean",
+    "start": 171,
+    "end": 191,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.clean",
+    "start": 171,
+    "end": 191,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.clean",
+    "start": 171,
+    "end": 191,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.save",
+    "start": 194,
+    "end": 197,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.save",
+    "start": 194,
+    "end": 197,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.save",
+    "start": 194,
+    "end": 197,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.__str__",
+    "start": 199,
+    "end": 200,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 1,
+    "end": 17,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 1,
+    "end": 17,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "submit",
+    "start": 20,
+    "end": 47,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "submit",
+    "start": 20,
+    "end": 47,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "submit",
+    "start": 20,
+    "end": 47,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "submit",
+    "start": 20,
+    "end": 47,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "submit",
+    "start": 39,
+    "end": 39,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "go",
+    "start": 65,
+    "end": 65,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "today",
+    "start": 49,
+    "end": 53,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "date",
+    "start": 54,
+    "end": 54,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "money",
+    "start": 56,
+    "end": 59,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "normalize",
+    "start": 61,
+    "end": 61,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "url",
+    "start": 62,
+    "end": 64,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "go",
+    "start": 65,
+    "end": 65,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "toast",
+    "start": 67,
+    "end": 74,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "icon",
+    "start": 75,
+    "end": 77,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "contractStatus",
+    "start": 80,
+    "end": 80,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "statusBadge",
+    "start": 81,
+    "end": 86,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "options",
+    "start": 87,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "error",
+    "start": 91,
+    "end": 96,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "missing",
+    "start": 97,
+    "end": 99,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "definition",
+    "start": 255,
+    "end": 258,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "field",
+    "start": 332,
+    "end": 334,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "selectField",
+    "start": 335,
+    "end": 337,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "money",
+    "start": 56,
+    "end": 59,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "money",
+    "start": 56,
+    "end": 59,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "normalize",
+    "start": 61,
+    "end": 61,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "normalize",
+    "start": 61,
+    "end": 61,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initShell",
+    "start": 101,
+    "end": 180,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 161,
+    "end": 179,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 161,
+    "end": 179,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "paginate",
+    "start": 182,
+    "end": 189,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "paginate",
+    "start": 182,
+    "end": 189,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "paginate",
+    "start": 182,
+    "end": 189,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "actions",
+    "start": 191,
+    "end": 196,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "actions",
+    "start": 191,
+    "end": 196,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "actions",
+    "start": 191,
+    "end": 196,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeList",
+    "start": 198,
+    "end": 223,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 203,
+    "end": 220,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 203,
+    "end": 220,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeList",
+    "start": 198,
+    "end": 223,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeList",
+    "start": 200,
+    "end": 200,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "options",
+    "start": 87,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeForm",
+    "start": 225,
+    "end": 254,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 239,
+    "end": 253,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 239,
+    "end": 253,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderEmployeeDetail",
+    "start": 260,
+    "end": 272,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 260,
+    "end": 268,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 260,
+    "end": 268,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initDeactivate",
+    "start": 274,
+    "end": 303,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 274,
+    "end": 303,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 274,
+    "end": 303,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initDeactivate",
+    "start": 274,
+    "end": 303,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initDeactivate",
+    "start": 301,
+    "end": 301,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "submit",
+    "start": 20,
+    "end": 47,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initContractList",
+    "start": 305,
+    "end": 331,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 305,
+    "end": 322,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 305,
+    "end": 322,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initContractForm",
+    "start": 339,
+    "end": 400,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 339,
+    "end": 373,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 339,
+    "end": 373,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 374,
+    "end": 399,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 374,
+    "end": 399,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initContractForm",
+    "start": 339,
+    "end": 400,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initContractForm",
+    "start": 397,
+    "end": 397,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "submit",
+    "start": 20,
+    "end": 47,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "contractContent",
+    "start": 402,
+    "end": 413,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 402,
+    "end": 406,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 402,
+    "end": 406,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 407,
+    "end": 413,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderContractDetail",
+    "start": 414,
+    "end": 419,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderContractDetail",
+    "start": 414,
+    "end": 419,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderContractDetail",
+    "start": 414,
+    "end": 419,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderMyContracts",
+    "start": 421,
+    "end": 433,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderMyContracts",
+    "start": 421,
+    "end": 433,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderMyContracts",
+    "start": 421,
+    "end": 433,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderMyContracts",
+    "start": 421,
+    "end": 433,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderMyContracts",
+    "start": 430,
+    "end": 430,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "contractContent",
+    "start": 402,
+    "end": 413,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderMyProfile",
+    "start": 435,
+    "end": 453,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 435,
+    "end": 443,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 435,
+    "end": 443,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 455,
+    "end": 471,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 455,
+    "end": 471,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": "Command.handle",
+    "start": 23,
+    "end": 94,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": null,
+    "start": 51,
+    "end": 67,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": null,
+    "start": 51,
+    "end": 67,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": null,
+    "start": 77,
+    "end": 87,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": null,
+    "start": 77,
+    "end": 87,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/sample_data/hr_demo.json",
+    "symbol": null,
+    "start": 1,
+    "end": 31,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/management/commands/create_dev_accounts.py",
+    "symbol": "Command.handle",
+    "start": 16,
+    "end": 38,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/admin.py",
+    "symbol": null,
+    "start": 1,
+    "end": 33,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/admin.py",
+    "symbol": null,
+    "start": 1,
+    "end": 33,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/models.py",
+    "symbol": "User",
+    "start": 7,
+    "end": 22,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/models.py",
+    "symbol": "User",
+    "start": 7,
+    "end": 22,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/models.py",
+    "symbol": "User",
+    "start": 7,
+    "end": 22,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/views.py",
+    "symbol": "LoginView.get_context_data",
+    "start": 13,
+    "end": 16,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/views.py",
+    "symbol": "LoginView.get_context_data",
+    "start": 13,
+    "end": 16,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/views.py",
+    "symbol": "LoginView.get_context_data",
+    "start": 13,
+    "end": 16,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/views.py",
+    "symbol": "LoginView.get_context_data",
+    "start": 13,
+    "end": 16,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/views.py",
+    "symbol": "LoginView.get_context_data",
+    "start": 15,
+    "end": 15,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/dev_login.py",
+    "symbol": "available_dev_accounts",
+    "start": 20,
+    "end": 39,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/views.py",
+    "symbol": "LoginView.get_default_redirect_url",
+    "start": 19,
+    "end": 21,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/views.py",
+    "symbol": "LoginView.get_default_redirect_url",
+    "start": 19,
+    "end": 21,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/views.py",
+    "symbol": "LoginView.get_default_redirect_url",
+    "start": 19,
+    "end": 21,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/dev_login.py",
+    "symbol": "credential_path",
+    "start": 15,
+    "end": 16,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/dev_login.py",
+    "symbol": "credential_path",
+    "start": 15,
+    "end": 16,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/dev_login.py",
+    "symbol": "credential_path",
+    "start": 15,
+    "end": 16,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/dev_login.py",
+    "symbol": "available_dev_accounts",
+    "start": 20,
+    "end": 39,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/dev_login.py",
+    "symbol": null,
+    "start": 20,
+    "end": 39,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/dev_login.py",
+    "symbol": null,
+    "start": 20,
+    "end": 39,
+    "anchor": null
+  },
+  {
+    "file": "static/js/dev-login.js",
+    "symbol": null,
+    "start": 1,
+    "end": 26,
+    "anchor": null
+  },
+  {
+    "file": "static/js/dev-login.js",
+    "symbol": null,
+    "start": 1,
+    "end": 26,
+    "anchor": null
+  },
+  {
+    "file": "templates/accounts/login.html",
+    "symbol": null,
+    "start": 1,
+    "end": 33,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/urls.py",
+    "symbol": null,
+    "start": 1,
+    "end": 11,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 1,
+    "end": 9,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 1,
+    "end": 9,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 56,
+    "end": 72,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 56,
+    "end": 72,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/employees/list.html",
+    "symbol": null,
+    "start": 1,
+    "end": 15,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeList",
+    "start": 198,
+    "end": 223,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/employees/list.html",
+    "symbol": null,
+    "start": 1,
+    "end": 15,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/employees/list.html",
+    "symbol": null,
+    "start": 1,
+    "end": 15,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/employees/form.html",
+    "symbol": null,
+    "start": 1,
+    "end": 25,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeForm",
+    "start": 225,
+    "end": 254,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/employees/form.html",
+    "symbol": null,
+    "start": 1,
+    "end": 25,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/employees/form.html",
+    "symbol": null,
+    "start": 1,
+    "end": 25,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/employees/detail.html",
+    "symbol": null,
+    "start": 1,
+    "end": 6,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderEmployeeDetail",
+    "start": 260,
+    "end": 272,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/employees/my_profile.html",
+    "symbol": null,
+    "start": 1,
+    "end": 5,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderMyProfile",
+    "start": 435,
+    "end": 453,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/contracts/list.html",
+    "symbol": null,
+    "start": 1,
+    "end": 15,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initContractList",
+    "start": 305,
+    "end": 331,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/contracts/list.html",
+    "symbol": null,
+    "start": 1,
+    "end": 15,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/contracts/list.html",
+    "symbol": null,
+    "start": 1,
+    "end": 15,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/contracts/form.html",
+    "symbol": null,
+    "start": 1,
+    "end": 8,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initContractForm",
+    "start": 339,
+    "end": 400,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/contracts/form.html",
+    "symbol": null,
+    "start": 1,
+    "end": 8,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/contracts/form.html",
+    "symbol": null,
+    "start": 1,
+    "end": 8,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/contracts/detail.html",
+    "symbol": null,
+    "start": 1,
+    "end": 6,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderContractDetail",
+    "start": 414,
+    "end": 419,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/contracts/my_contracts.html",
+    "symbol": null,
+    "start": 1,
+    "end": 5,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderMyContracts",
+    "start": 421,
+    "end": 433,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/includes/icon.html",
+    "symbol": null,
+    "start": 1,
+    "end": 1,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "icon",
+    "start": 75,
+    "end": 77,
+    "anchor": null
+  },
+  {
+    "file": "static/css/employees.css",
+    "symbol": null,
+    "start": 1,
+    "end": 31,
+    "anchor": null
+  },
+  {
+    "file": "static/css/employees.css",
+    "symbol": null,
+    "start": 32,
+    "end": 259,
+    "anchor": null
+  },
+  {
+    "file": "static/css/employees.css",
+    "symbol": null,
+    "start": 260,
+    "end": 387,
+    "anchor": null
+  },
+  {
+    "file": "static/css/employees.css",
+    "symbol": null,
+    "start": 1,
+    "end": 19,
+    "anchor": null
+  },
+  {
+    "file": "static/css/employees.css",
+    "symbol": null,
+    "start": 1,
+    "end": 19,
+    "anchor": null
+  },
+  {
+    "file": "config/settings.py",
+    "symbol": null,
+    "start": 44,
+    "end": 53,
+    "anchor": null
+  },
+  {
+    "file": "config/settings.py",
+    "symbol": null,
+    "start": 44,
+    "end": 53,
+    "anchor": null
+  },
+  {
+    "file": "config/settings.py",
+    "symbol": null,
+    "start": 71,
+    "end": 100,
+    "anchor": null
+  },
+  {
+    "file": "config/settings.py",
+    "symbol": null,
+    "start": 71,
+    "end": 100,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/migrations/0001_initial.py",
+    "symbol": "Migration",
+    "start": 11,
+    "end": 105,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/migrations/0002_departments.py",
+    "symbol": "create_departments",
+    "start": 4,
+    "end": 7,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/migrations/0003_remove_contract_contract_valid_end_date_and_more.py",
+    "symbol": "Migration",
+    "start": 6,
+    "end": 21,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/apps.py",
+    "symbol": "EmployeesConfig",
+    "start": 4,
+    "end": 7,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DemoDataTests",
+    "start": 21,
+    "end": 87,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests",
+    "start": 90,
+    "end": 303,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/tests.py",
+    "symbol": "AuthenticationTests",
+    "start": 13,
+    "end": 52,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/tests.py",
+    "symbol": "DevLoginTests",
+    "start": 55,
+    "end": 112,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": "employee_create",
+    "start": 27,
+    "end": 30,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initEmployeeForm",
+    "start": 225,
+    "end": 254,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_save",
+    "start": 62,
+    "end": 66,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "CodedHistoryModel.save",
+    "start": 43,
+    "end": 51,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractForm",
+    "start": 24,
+    "end": 41,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.clean",
+    "start": 171,
+    "end": 191,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/admin.py",
+    "symbol": "EmployeeAdmin",
+    "start": 12,
+    "end": 21,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderMyContracts",
+    "start": 421,
+    "end": 433,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractUpdateForm",
+    "start": 45,
+    "end": 48,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "contract_save",
+    "start": 93,
+    "end": 103,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.clean",
+    "start": 171,
+    "end": 191,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initDeactivate",
+    "start": 274,
+    "end": 303,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_deactivate",
+    "start": 69,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.computed_status",
+    "start": 150,
+    "end": 160,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "contract_save",
+    "start": 93,
+    "end": 103,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": null,
+    "start": 8,
+    "end": 8,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/access.py",
+    "symbol": null,
+    "start": 13,
+    "end": 13,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": null,
+    "start": 11,
+    "end": 11,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": null,
+    "start": 22,
+    "end": 22,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": null,
+    "start": 28,
+    "end": 28,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": null,
+    "start": 34,
+    "end": 34,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": null,
+    "start": 44,
+    "end": 44,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": null,
+    "start": 56,
+    "end": 56,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": null,
+    "start": 62,
+    "end": 62,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": null,
+    "start": 68,
+    "end": 68,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": null,
+    "start": 74,
+    "end": 74,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": null,
+    "start": 84,
+    "end": 84,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/views.py",
+    "symbol": null,
+    "start": 96,
+    "end": 96,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": null,
+    "start": 18,
+    "end": 18,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": null,
+    "start": 30,
+    "end": 30,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": null,
+    "start": 38,
+    "end": 38,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": null,
+    "start": 43,
+    "end": 43,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": null,
+    "start": 52,
+    "end": 52,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": null,
+    "start": 63,
+    "end": 63,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": null,
+    "start": 70,
+    "end": 70,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": null,
+    "start": 75,
+    "end": 75,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": null,
+    "start": 85,
+    "end": 85,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": null,
+    "start": 94,
+    "end": 94,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": null,
+    "start": 7,
+    "end": 7,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": null,
+    "start": 15,
+    "end": 15,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": null,
+    "start": 23,
+    "end": 23,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": null,
+    "start": 32,
+    "end": 32,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": null,
+    "start": 36,
+    "end": 36,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": null,
+    "start": 44,
+    "end": 44,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": null,
+    "start": 51,
+    "end": 51,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": null,
+    "start": 60,
+    "end": 60,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 11,
+    "end": 11,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 27,
+    "end": 27,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 33,
+    "end": 33,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 42,
+    "end": 42,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 45,
+    "end": 45,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 49,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 57,
+    "end": 57,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 86,
+    "end": 86,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 116,
+    "end": 116,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 151,
+    "end": 151,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 163,
+    "end": 163,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 170,
+    "end": 170,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 184,
+    "end": 184,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": null,
+    "start": 193,
+    "end": 193,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": null,
+    "start": 5,
+    "end": 5,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": null,
+    "start": 10,
+    "end": 10,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": null,
+    "start": 20,
+    "end": 20,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": null,
+    "start": 28,
+    "end": 28,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": null,
+    "start": 32,
+    "end": 32,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": null,
+    "start": 36,
+    "end": 36,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": null,
+    "start": 47,
+    "end": 47,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/urls.py",
+    "symbol": null,
+    "start": 7,
+    "end": 7,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/admin.py",
+    "symbol": null,
+    "start": 6,
+    "end": 6,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/admin.py",
+    "symbol": null,
+    "start": 13,
+    "end": 13,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/admin.py",
+    "symbol": null,
+    "start": 25,
+    "end": 25,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": null,
+    "start": 22,
+    "end": 22,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": null,
+    "start": 33,
+    "end": 33,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": null,
+    "start": 56,
+    "end": 56,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/management/commands/seed_demo_data.py",
+    "symbol": null,
+    "start": 80,
+    "end": 80,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/models.py",
+    "symbol": null,
+    "start": 6,
+    "end": 6,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/views.py",
+    "symbol": null,
+    "start": 7,
+    "end": 7,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/views.py",
+    "symbol": null,
+    "start": 12,
+    "end": 12,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/views.py",
+    "symbol": null,
+    "start": 18,
+    "end": 18,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/dev_login.py",
+    "symbol": null,
+    "start": 19,
+    "end": 19,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/dev_login.py",
+    "symbol": null,
+    "start": 36,
+    "end": 36,
+    "anchor": null
+  },
+  {
+    "file": "config/settings.py",
+    "symbol": null,
+    "start": 44,
+    "end": 44,
+    "anchor": null
+  },
+  {
+    "file": "config/settings.py",
+    "symbol": null,
+    "start": 74,
+    "end": 74,
+    "anchor": null
+  },
+  {
+    "file": "config/settings.py",
+    "symbol": null,
+    "start": 83,
+    "end": 83,
+    "anchor": null
+  },
+  {
+    "file": "config/urls.py",
+    "symbol": null,
+    "start": 14,
+    "end": 14,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 6,
+    "end": 6,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 16,
+    "end": 16,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 19,
+    "end": 19,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 21,
+    "end": 21,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 32,
+    "end": 32,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 42,
+    "end": 42,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 48,
+    "end": 48,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 55,
+    "end": 55,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 60,
+    "end": 60,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 100,
+    "end": 100,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 152,
+    "end": 152,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 181,
+    "end": 181,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 190,
+    "end": 190,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 197,
+    "end": 197,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 224,
+    "end": 224,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 239,
+    "end": 239,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 259,
+    "end": 259,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 273,
+    "end": 273,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 304,
+    "end": 304,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 338,
+    "end": 338,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 386,
+    "end": 386,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 401,
+    "end": 401,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 420,
+    "end": 420,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 434,
+    "end": 434,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": null,
+    "start": 457,
+    "end": 457,
+    "anchor": null
+  },
+  {
+    "file": "static/js/dev-login.js",
+    "symbol": null,
+    "start": 2,
+    "end": 2,
+    "anchor": null
+  },
+  {
+    "file": "static/js/dev-login.js",
+    "symbol": null,
+    "start": 15,
+    "end": 15,
+    "anchor": null
+  },
+  {
+    "file": "static/css/employees.css",
+    "symbol": null,
+    "start": 1,
+    "end": 1,
+    "anchor": null
+  },
+  {
+    "file": "static/css/employees.css",
+    "symbol": null,
+    "start": 98,
+    "end": 98,
+    "anchor": null
+  },
+  {
+    "file": "static/css/employees.css",
+    "symbol": null,
+    "start": 234,
+    "end": 234,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 9,
+    "end": 9,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 55,
+    "end": 55,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/base.html",
+    "symbol": null,
+    "start": 70,
+    "end": 70,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/employees/list.html",
+    "symbol": null,
+    "start": 3,
+    "end": 3,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/employees/form.html",
+    "symbol": null,
+    "start": 5,
+    "end": 5,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/employees/detail.html",
+    "symbol": null,
+    "start": 5,
+    "end": 5,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/employees/my_profile.html",
+    "symbol": null,
+    "start": 4,
+    "end": 4,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/contracts/list.html",
+    "symbol": null,
+    "start": 10,
+    "end": 10,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/contracts/form.html",
+    "symbol": null,
+    "start": 5,
+    "end": 5,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/contracts/detail.html",
+    "symbol": null,
+    "start": 5,
+    "end": 5,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/contracts/my_contracts.html",
+    "symbol": null,
+    "start": 4,
+    "end": 4,
+    "anchor": null
+  },
+  {
+    "file": "templates/employees/includes/icon.html",
+    "symbol": null,
+    "start": 1,
+    "end": 1,
+    "anchor": null
+  },
+  {
+    "file": "templates/accounts/login.html",
+    "symbol": null,
+    "start": 11,
+    "end": 11,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DemoDataTests",
+    "start": 21,
+    "end": 87,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests",
+    "start": 90,
+    "end": 303,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests",
+    "start": 90,
+    "end": 303,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests",
+    "start": 90,
+    "end": 303,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/tests.py",
+    "symbol": null,
+    "start": 1,
+    "end": 112,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DemoDataTests.test_samples_cover_departments_statuses_and_staff_profile",
+    "start": 31,
+    "end": 50,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DemoDataTests.test_rerun_preserves_edits_and_does_not_duplicate_on_another_day",
+    "start": 52,
+    "end": 67,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DemoDataTests.test_conflicting_unique_field_rolls_back_the_whole_import",
+    "start": 69,
+    "end": 75,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DemoDataTests.test_existing_staff_link_is_preserved",
+    "start": 77,
+    "end": 81,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DemoDataTests.test_production_does_not_load_sample_data",
+    "start": 83,
+    "end": 87,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_database_starts_without_demo_personnel",
+    "start": 126,
+    "end": 132,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_create_and_update_survive_a_different_session",
+    "start": 134,
+    "end": 148,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_duplicates_and_invalid_employee_fields_are_rejected",
+    "start": 150,
+    "end": 165,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_employee_codes_do_not_collide_at_three_digit_boundary",
+    "start": 167,
+    "end": 171,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_contract_create_renew_and_expiry_warning",
+    "start": 173,
+    "end": 186,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_invalid_contracts_never_write_to_db",
+    "start": 188,
+    "end": 197,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_indefinite_contract_and_overlap",
+    "start": 199,
+    "end": 207,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_renewal_overlap_is_a_validation_error",
+    "start": 209,
+    "end": 217,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_deactivation_keeps_history_and_blocks_linked_login",
+    "start": 219,
+    "end": 231,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_invalid_departure_and_self_deactivation_are_rejected",
+    "start": 233,
+    "end": 241,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_staff_cannot_read_others_or_forge_manager_role",
+    "start": 243,
+    "end": 256,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_authentication_csrf_and_post_required",
+    "start": 258,
+    "end": 269,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_bad_requests_and_missing_records",
+    "start": 271,
+    "end": 277,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_database_constraints_and_delete_protection",
+    "start": 279,
+    "end": 293,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/tests.py",
+    "symbol": "DatabaseWorkflowTests.test_status_changes_with_server_date",
+    "start": 295,
+    "end": 303,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/tests.py",
+    "symbol": "AuthenticationTests.test_login_redirect_uses_actual_account_role",
+    "start": 20,
+    "end": 24,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/tests.py",
+    "symbol": "AuthenticationTests.test_wrong_password_or_locked_account_cannot_login",
+    "start": 26,
+    "end": 32,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/tests.py",
+    "symbol": "AuthenticationTests.test_logout_requires_post_and_ends_the_session",
+    "start": 34,
+    "end": 39,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/tests.py",
+    "symbol": "AuthenticationTests.test_password_change_persists_and_keeps_current_session",
+    "start": 41,
+    "end": 52,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/tests.py",
+    "symbol": "DevLoginTests.test_shortcuts_use_real_accounts_and_role_permissions",
+    "start": 66,
+    "end": 76,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/tests.py",
+    "symbol": "DevLoginTests.test_production_does_not_render_credentials_or_allow_setup",
+    "start": 78,
+    "end": 86,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/tests.py",
+    "symbol": "DevLoginTests.test_setup_is_idempotent_and_does_not_replace_existing_passwords",
+    "start": 88,
+    "end": 101,
+    "anchor": null
+  },
+  {
+    "file": "apps/accounts/tests.py",
+    "symbol": "DevLoginTests.test_missing_file_and_locked_accounts_do_not_offer_shortcuts",
+    "start": 103,
+    "end": 112,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.Status",
+    "start": 123,
+    "end": 127,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/urls.py",
+    "symbol": null,
+    "start": 1,
+    "end": 24,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/forms.py",
+    "symbol": "ContractUpdateForm",
+    "start": 45,
+    "end": 48,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "contract_save",
+    "start": 93,
+    "end": 103,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.clean",
+    "start": 171,
+    "end": 191,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_deactivate",
+    "start": 69,
+    "end": 90,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.computed_status",
+    "start": 150,
+    "end": 160,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderEmployeeDetail",
+    "start": 260,
+    "end": 272,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "renderMyContracts",
+    "start": 421,
+    "end": 433,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "contractContent",
+    "start": 402,
+    "end": 413,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "initShell",
+    "start": 101,
+    "end": 180,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/urls.py",
+    "symbol": null,
+    "start": 1,
+    "end": 24,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/serializers.py",
+    "symbol": "bootstrap",
+    "start": 29,
+    "end": 49,
+    "anchor": null
+  },
+  {
+    "file": "static/js/employees.js",
+    "symbol": "paginate",
+    "start": 182,
+    "end": 189,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "employee_save",
+    "start": 62,
+    "end": 66,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/api.py",
+    "symbol": "contract_save",
+    "start": 93,
+    "end": 103,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "CodedHistoryModel.save",
+    "start": 43,
+    "end": 51,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/admin.py",
+    "symbol": "ContractAdmin",
+    "start": 24,
+    "end": 33,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.save",
+    "start": 194,
+    "end": 197,
+    "anchor": null
+  },
+  {
+    "file": "apps/employees/models.py",
+    "symbol": "Contract.display_status",
+    "start": 162,
+    "end": 168,
+    "anchor": null
+  }
+]

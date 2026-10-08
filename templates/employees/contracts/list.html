@@ -1,0 +1,15 @@
+{% extends "employees/base.html" %}
+{% block employees_content %}
+<div class="cc-page-header"><div><h1>Quản lý hợp đồng</h1><p>Quản lý và theo dõi các hợp đồng lao động</p></div></div>
+<div class="cc-toolbar">
+    <label class="cc-search">{% include "employees/includes/icon.html" with name="search" %}<input id="contract-search" type="search" placeholder="Tìm theo mã HĐ, tên nhân viên..." aria-label="Tìm theo mã hợp đồng hoặc tên nhân viên"></label>
+    <select class="cc-select" id="contract-type-filter" aria-label="Lọc theo loại hợp đồng"><option value="">Loại hợp đồng</option></select>
+    <select class="cc-select" id="contract-status-filter" aria-label="Lọc theo trạng thái hợp đồng"><option value="">Trạng thái</option><option value="active">Đang hiệu lực</option><option value="expiring">Sắp hết hạn</option><option value="expired">Đã hết hạn</option></select>
+    <a class="cc-button cc-button-primary cc-toolbar-action" href="{% url 'employees:contract_create' %}"><span class="cc-plus" aria-hidden="true">+</span>Tạo hợp đồng</a>
+</div>
+{# Cảnh báo được JavaScript mở khi dữ liệu máy chủ có hợp đồng sắp hết hạn. #}<div class="cc-expiry-alert" id="expiry-alert" hidden><span aria-hidden="true">⚠</span><span id="expiry-count"></span><button type="button" id="view-expiring">Xem chi tiết</button></div>
+<section class="cc-table-panel cc-contracts-panel" aria-label="Danh sách hợp đồng">
+    <div class="cc-table-scroll"><table class="cc-table cc-contracts-table"><thead><tr><th>Mã HĐ</th><th>Nhân viên</th><th>Loại hợp đồng</th><th>Ngày bắt đầu</th><th>Ngày hết hạn</th><th>Trạng thái</th><th class="cc-action-column">Thao tác</th></tr></thead><tbody id="contract-rows"></tbody></table></div>
+    <div class="cc-table-footer"><span id="contract-count" aria-live="polite"></span><nav class="cc-pagination" id="contract-pagination" aria-label="Phân trang hợp đồng"></nav></div>
+</section>
+{% endblock %}

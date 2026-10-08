@@ -1,0 +1,5 @@
+{% extends "employees/base.html" %}
+{% block employees_content %}
+<div class="cc-page-header cc-personal-heading"><h1>Hợp đồng của tôi</h1><select class="cc-select" id="my-contract-select" aria-label="Chọn hợp đồng của tôi" hidden></select></div>
+{# Nhiều hợp đồng thì hiện bộ chọn; nội dung chi tiết dùng lại contractContent. #}<div id="my-contract-content"></div>
+{% endblock %}

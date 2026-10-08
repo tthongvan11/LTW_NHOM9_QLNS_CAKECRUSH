@@ -1,0 +1,22 @@
+{% load static %}
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Cake Crush | Quản lý nhân sự{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    {% block extra_css %}{% endblock %}
+</head>
+<body {% block body_attributes %}{% endblock %}>
+    {% block body %}
+    {% include "includes/header.html" %}
+    <main class="container">
+        {% include "includes/messages.html" %}
+        {% block content %}{% endblock %}
+    </main>
+    {% endblock %}
+    <script src="{% static 'js/main.js' %}" defer></script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

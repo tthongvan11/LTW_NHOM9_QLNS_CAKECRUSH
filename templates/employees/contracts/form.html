@@ -1,0 +1,8 @@
+{% extends "employees/base.html" %}
+{% block employees_content %}
+<a class="cc-back" href="{% url 'employees:contract_list' %}"><span aria-hidden="true">‹</span>Quay lại</a>
+<div class="cc-page-header"><div><h1 id="contract-form-title">Tạo hợp đồng lao động</h1><p id="contract-form-description">Nhập thông tin hợp đồng lao động</p></div></div>
+{# Các ô tạo/gia hạn được initContractForm dựng vào contract-fields; biểu mẫu chỉ mở khung chung. #}<form class="cc-panel cc-form-panel cc-contract-form" id="contract-form"><div id="contract-fields"></div><div class="cc-form-error" role="alert" hidden></div>
+<div class="cc-form-actions"><a class="cc-button cc-button-secondary" href="{% url 'employees:contract_list' %}">Hủy</a><button class="cc-button cc-button-primary" type="submit" id="contract-submit">Lưu hợp đồng</button></div>
+</form>
+{% endblock %}

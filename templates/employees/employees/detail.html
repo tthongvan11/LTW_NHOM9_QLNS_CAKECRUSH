@@ -1,0 +1,6 @@
+{% extends "employees/base.html" %}
+{% block employees_content %}
+<a class="cc-back" href="{% url 'employees:employee_list' %}"><span aria-hidden="true">‹</span>Quay lại</a>
+<div class="cc-page-header"><div><h1>Thông tin nhân viên</h1><p>Xem thông tin nhân viên</p></div><div class="cc-header-actions" id="employee-detail-actions"></div></div>
+{# Vùng này nhận nội dung từ renderEmployeeDetail sau khi trang tải xong. #}<div id="employee-detail-content"></div>
+{% endblock %}

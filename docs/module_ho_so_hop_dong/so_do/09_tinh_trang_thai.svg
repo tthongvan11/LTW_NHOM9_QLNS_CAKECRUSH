@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1180" viewBox="0 0 1700 1180"><rect width="100%" height="100%" fill="white"/>
+<text x="850" y="67" text-anchor="middle" font-family="Times New Roman" font-size="43" fill="#152b3c">Quyết định trạng thái khi đọc hợp đồng</text>
+<rect x="80" y="140" width="1010" height="145" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="585.0" y="224.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">status = CHAMDUT?</text>
+<rect x="1240" y="140" width="380" height="145" rx="16" fill="#fff4de" stroke="#30546b" stroke-width="3"/>
+<text x="1430.0" y="224.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">terminated</text>
+<path d="M1090,212 L1240,212" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="1240,212 1221.5787801199424,219.788366846173 1221.5787801199424,204.211633153827" fill="#30546b"/>
+<rect x="1228.5" y="192.0" width="53.0" height="40" fill="white"/>
+<text x="1255.0" y="224.0" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Có</text>
+<rect x="80" y="345" width="1010" height="145" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="585.0" y="429.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">start_date &gt; hôm nay?</text>
+<rect x="1240" y="345" width="380" height="145" rx="16" fill="#fff4de" stroke="#30546b" stroke-width="3"/>
+<text x="1430.0" y="429.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">upcoming</text>
+<path d="M1090,417 L1240,417" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="1240,417 1221.5787801199424,424.788366846173 1221.5787801199424,409.211633153827" fill="#30546b"/>
+<rect x="1228.5" y="397.0" width="53.0" height="40" fill="white"/>
+<text x="1255.0" y="429.0" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Có</text>
+<path d="M585,285 L585,345" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="585,345 577.2116331538269,326.5787801199423 592.7883668461731,326.5787801199423" fill="#30546b"/>
+<rect x="623.5" y="295.0" width="103.0" height="40" fill="white"/>
+<text x="675.0" y="327.0" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Không</text>
+<rect x="80" y="550" width="1010" height="145" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="585.0" y="609.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">end_date &lt; hôm nay?</text>
+<text x="585.0" y="659.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">(chỉ khi có ngày hết hạn)</text>
+<rect x="1240" y="550" width="380" height="145" rx="16" fill="#fff4de" stroke="#30546b" stroke-width="3"/>
+<text x="1430.0" y="634.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">expired</text>
+<path d="M1090,622 L1240,622" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="1240,622 1221.5787801199424,629.7883668461731 1221.5787801199424,614.2116331538269" fill="#30546b"/>
+<rect x="1228.5" y="602.0" width="53.0" height="40" fill="white"/>
+<text x="1255.0" y="634.0" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Có</text>
+<path d="M585,490 L585,550" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="585,550 577.2116331538269,531.5787801199423 592.7883668461731,531.5787801199423" fill="#30546b"/>
+<rect x="623.5" y="500.0" width="103.0" height="40" fill="white"/>
+<text x="675.0" y="532.0" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Không</text>
+<rect x="80" y="755" width="1010" height="145" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="585.0" y="814.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">Còn 1–30 ngày đến hết hạn?</text>
+<text x="585.0" y="864.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">(chỉ khi có ngày hết hạn)</text>
+<rect x="1240" y="755" width="380" height="145" rx="16" fill="#fff4de" stroke="#30546b" stroke-width="3"/>
+<text x="1430.0" y="839.5" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">expiring</text>
+<path d="M1090,827 L1240,827" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="1240,827 1221.5787801199424,834.7883668461731 1221.5787801199424,819.2116331538269" fill="#30546b"/>
+<rect x="1228.5" y="807.0" width="53.0" height="40" fill="white"/>
+<text x="1255.0" y="839.0" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Có</text>
+<path d="M585,695 L585,755" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="585,755 577.2116331538269,736.5787801199423 592.7883668461731,736.5787801199423" fill="#30546b"/>
+<rect x="623.5" y="705.0" width="103.0" height="40" fill="white"/>
+<text x="675.0" y="737.0" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Không</text>
+<rect x="80" y="975" width="1010" height="100" rx="16" fill="#edf4f8" stroke="#30546b" stroke-width="3"/>
+<text x="585.0" y="1037.0" text-anchor="middle" font-family="Times New Roman" font-size="40" fill="#152b3c">active: đang hiệu lực</text>
+<path d="M585,900 L585,975" fill="none" stroke="#30546b" stroke-width="4"/><polygon points="585,975 577.2116331538269,956.5787801199423 592.7883668461731,956.5787801199423" fill="#30546b"/>
+<rect x="623.5" y="917.5" width="103.0" height="40" fill="white"/>
+<text x="675.0" y="949.5" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Không</text>
+<text x="850" y="1142" text-anchor="middle" font-family="Times New Roman" font-size="32" fill="#152b3c">Ngày hết hạn = hôm nay → active. Nhãn expiring chỉ dùng để hiển thị.</text>
+</svg>

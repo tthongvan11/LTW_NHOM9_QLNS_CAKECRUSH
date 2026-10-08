@@ -1,0 +1,15 @@
+{% extends "employees/base.html" %}
+{% block employees_content %}
+{# Trang tạo chỗ đặt bộ lọc/bảng; các hàng và phân trang được employees.js điền sau. #}<div class="cc-page-header"><div><h1>Hồ sơ nhân viên</h1><p>Quản lý và theo dõi thông tin nhân sự</p></div></div>
+<div class="cc-toolbar">
+    <label class="cc-search">{% include "employees/includes/icon.html" with name="search" %}<input id="employee-search" type="search" placeholder="Tìm theo mã, tên nhân viên..." aria-label="Tìm theo mã hoặc tên nhân viên"></label>
+    <select class="cc-select" id="department-filter" aria-label="Lọc theo phòng ban"><option value="">Phòng ban</option></select>
+    <select class="cc-select" id="job-filter" aria-label="Lọc theo chức vụ"><option value="">Chức vụ</option></select>
+    <select class="cc-select" id="employee-status-filter" aria-label="Lọc theo trạng thái"><option value="">Trạng thái</option><option value="active">Đang làm việc</option><option value="inactive">Đã nghỉ việc</option></select>
+    <a class="cc-button cc-button-primary cc-toolbar-action" href="{% url 'employees:employee_create' %}"><span class="cc-plus" aria-hidden="true">+</span>Thêm nhân viên</a>
+</div>
+<section class="cc-table-panel" aria-label="Danh sách hồ sơ nhân viên">
+    <div class="cc-table-scroll"><table class="cc-table cc-employees-table"><thead><tr><th>Mã NV</th><th>Họ và tên</th><th>Phòng ban</th><th>Chức vụ</th><th>Ngày vào làm</th><th>Trạng thái</th><th class="cc-action-column">Thao tác</th></tr></thead><tbody id="employee-rows"></tbody></table></div>
+    <div class="cc-table-footer"><span id="employee-count" aria-live="polite"></span><nav class="cc-pagination" id="employee-pagination" aria-label="Phân trang nhân viên"></nav></div>
+</section>
+{% endblock %}
